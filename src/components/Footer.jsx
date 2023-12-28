@@ -3,9 +3,9 @@ import ThemeIcon from './ThemeIcon';
 
 function Footer() {
   return (
-    <footer className="fixed-bottom" style={{ width: '25%', left: 0, bottom: 0 }}>
+    <footer className="fixed-bottom ms-5" style={{ width: '25%', left: 0, bottom: 0 }}>
       <ThemeIcon />
-      <div className="container-fluid">
+      <div className="container">
       
         <hr className="featurette-divider mb-3"></hr>
         

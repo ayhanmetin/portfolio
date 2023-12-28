@@ -7,19 +7,19 @@ import Portfolio from './components/Portfolio';
 import { Route, Routes } from 'react-router-dom';
 import PageNotFound from './pages/PageNotFound';
 import Testing from './components/Testing';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <div
-        style={{ margin: '0', padding: '0', marginBottom: '10px' }}
-        className='container'
-      >
-        <div className='row m-0'>
-          <div className='col-2 pl-0 d-none d-xl-block m-0 p-0'>
+      <div class='container text-start mt-5'>
+        <div class='row align-items-start'>
+          <div class='col-2'>
+            {' '}
             <Nav />
           </div>
-          <div className='col-12 col-xl-8 align-self-right'>
+          <div class='col-8'>
+            {' '}
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/portfolio' element={<Portfolio />} />
@@ -29,6 +29,7 @@ function App() {
               <Route path='*' element={<PageNotFound />} />
             </Routes>
           </div>
+          <Footer />
         </div>
       </div>
     </>
