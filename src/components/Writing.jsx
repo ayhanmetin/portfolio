@@ -13,7 +13,7 @@ function Writing() {
       >
         <header className='name'>
           <p className='text-start mb-0 pt-2 mt-5 border-start ps-3 mb-5 p-1 border-5 border-primary'>
-            Some writings.
+          “Quality is not an act; it is a habit” <i>Aristotle.</i>
           </p>
         </header>
         <div className='ms-0 ps-0 mt-2 text-with-gradient'></div>
