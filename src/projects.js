@@ -5,18 +5,11 @@ import calculatorIOS from './images/calculator.png';
 
 const projects = [
   {
-    name: 'Calculator',
-    imageUrl: calculatorIOS,
-    technologies: ['JS', 'CSS', 'HTML'],
-    githubUrl: 'https://github.com/ayhanmetin/calculator',
-    liveDemoUrl: 'https://www.ayhanmetin.eu/calculator/',
-  },
-  {
     name: 'Feed-A-Star-Mole',
     imageUrl: moleImage,
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    githubUrl: 'https://github.com/project2',
-    liveDemoUrl: 'https://project2.com',
+    technologies: ['JS', 'HTML', 'CSS'],
+    githubUrl: 'https://feed-a-mole-red.vercel.app/',
+    liveDemoUrl: 'https://github.com/ayhanmetin/feed-a-mole',
   },
   {
     name: 'E-Commerce Page',
@@ -31,6 +24,13 @@ const projects = [
     technologies: ['JS', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/project4',
     liveDemoUrl: 'https://portfoliopage-rho.vercel.app/',
+  },
+  {
+    name: 'Calculator',
+    imageUrl: calculatorIOS,
+    technologies: ['JS', 'CSS', 'HTML'],
+    githubUrl: 'https://github.com/ayhanmetin/calculator',
+    liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
   },
 ];
 

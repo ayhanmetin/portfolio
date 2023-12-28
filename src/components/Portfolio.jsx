@@ -44,7 +44,7 @@ function Portfolio() {
                       >
                         <a
                           target='_blank'
-                          className='link-primary link-offset-2 link-underline-opacity-100-hover'
+                          className='link-light link-offset-2 link-underline-opacity-100-hover'
                           href={project.liveDemoUrl}
                         >
                           {project.name}
@@ -53,6 +53,30 @@ function Portfolio() {
                       <p style={{ marginBottom: '0' }}>{project.description}</p>
                     </div>
                   </div>
+                </div>
+                <div class='d-flex flex-row mb-3 align-items-center'>
+                  <figure class='figure p-2'>
+                    <figcaption class='figure-caption'>
+                      <a
+                        className='link-offset-2 Light underline link-underline-opacity-25 link-underline-opacity-75-hover'
+                        target='_blank'
+                        href={project.githubUrl}
+                      >
+                        github
+                      </a>
+                    </figcaption>
+                  </figure>
+                  <figure class='figure p-2'>
+                    <figcaption class='figure-caption'>
+                      <a
+                        className='link-offset-2 Light underline link-underline-opacity-25 link-underline-opacity-75-hover'
+                        target='_blank'
+                        href={project.liveDemoUrl}
+                      >
+                        live demo
+                      </a>
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
             ))}
