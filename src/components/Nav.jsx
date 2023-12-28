@@ -38,7 +38,7 @@ export default function Nav() {
         </NavLink>
         <NavLink
           className="list-group-item list-group-item-action p-1 ps-2"
-          to="/testinghub"
+          to="/testing"
         >
           02.testing
         </NavLink>
