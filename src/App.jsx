@@ -25,7 +25,6 @@ function App() {
               <Route path='/portfolio' element={<Portfolio />} />
               <Route path='/testing' element={<Testing />} />
               <Route path='/writing' element={<Writing />} />
-
               <Route path='*' element={<PageNotFound />} />
             </Routes>
           </div>
