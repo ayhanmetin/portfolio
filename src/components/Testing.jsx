@@ -28,7 +28,7 @@ function Testing() {
                     </h6>
                     <p className='card-text'>
                       {test.text}&nbsp; » &nbsp;
-                      <a href={test.githubLink}className='card-link'>
+                      <a target='_blank' href={test.githubLink}className='card-link'>
                         github
                       </a>
                     </p>

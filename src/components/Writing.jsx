@@ -23,7 +23,7 @@ function Writing() {
               <figure>
                 <blockquote className='blockquote fs-5 text'>
                   <p>
-                    <a target='_blank' href={writing.link}>
+                    <a className='link-underline-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover' target='_blank' href={writing.link}>
                       {writing.title}
                     </a>
                   </p>

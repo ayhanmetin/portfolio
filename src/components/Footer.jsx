@@ -4,8 +4,8 @@ import ThemeIcon from './ThemeIcon';
 function Footer() {
   return (
     <footer
-      className='fixed-bottom ms-5'
-      style={{ width: '30%', left: 0, bottom: 0 }}
+      className='fixed-bottom'
+      
     >
       <div className='container'>
         <ThemeIcon />
