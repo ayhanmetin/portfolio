@@ -12,13 +12,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div class='container text-start mt-5'>
-        <div class='row align-items-start'>
-          <div class='col-2'>
+      <div className='container text-start mt-5'>
+        <div className='row align-items-start'>
+          <div className='col-2'>
             {' '}
             <Nav />
           </div>
-          <div class='col-8'>
+          <div className='col-8'>
             {' '}
             <Routes>
               <Route path='/' element={<Home />} />
