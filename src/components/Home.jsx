@@ -13,7 +13,7 @@ function Home() {
       >
         <header className="name">
           <p className="text-start mb-0 pt-2 mt-5 border-start ps-3 mb-5 p-1 border-5 border-primary">
-            <p className='ms-3'>Web Applications enthusiast and dynamic engineer skilled in react
+            <p className='m-0 p-0 ms-3'>Web Applications enthusiast and dynamic engineer skilled in react
             development, quality assurance, and agile practices.</p>
           </p>
           <div className="mt-2 mb-5 text-with-gradient">Skills</div>{' '}
