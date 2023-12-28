@@ -1,31 +1,19 @@
 const githubTesting = [
   {
-    name: 'Calculator',
-    imageUrl: calculatorIOS,
-    technologies: ['JS', 'CSS', 'HTML'],
-    githubUrl: 'https://github.com/ayhanmetin/calculator',
-    liveDemoUrl: 'https://www.ayhanmetin.eu/calculator/',
+    title: 'Rumble Rivals Test Case Document',
+    githubLink: 'https://github.com/ayhanmetin/mobile-app-test-case-example',
   },
   {
-    name: 'Feed-A-Star-Mole',
-    imageUrl: moleImage,
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    githubUrl: 'https://github.com/project2',
-    liveDemoUrl: 'https://project2.com',
+    title: 'Cypress Test Automation',
+    githubLink: 'https://github.com/ayhanmetin/calculator',
   },
   {
-    name: 'E-Commerce Page',
-    imageUrl: ecommerceImage,
-    technologies: ['React', 'Bootstrap', 'JS'],
-    githubUrl: 'https://github.com/ayhanmetin/ayhando-ecommerce',
-    liveDemoUrl: 'https://ayhando-ecommerce.vercel.app/',
+    title: 'Cypress Api Testing',
+    githubLink: 'https://github.com/ayhanmetin/cypress-api-testing',
   },
   {
-    name: 'Portfolio Page',
-    imageUrl: calculatorIOS,
-    technologies: ['JS', 'HTML', 'CSS'],
-    githubUrl: 'https://github.com/project4',
-    liveDemoUrl: 'https://portfoliopage-rho.vercel.app/',
+    title: 'Cypress Test Assignments',
+    githubLink: 'https://github.com/ayhanmetin/cypress-assignments',
   },
 ];
 

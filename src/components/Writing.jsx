@@ -13,23 +13,17 @@ function Writing() {
       >
         <header className='name'>
           <p className='text-start mb-0 pt-2 mt-5 border-start ps-3 mb-5 p-1 border-5 border-primary'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
-            explicabo totam, beatae dolores iure aperiam rerum veritatis dolore
+            Some writings.
           </p>
         </header>
-
-        <div className='ms-0 ps-0 mt-2 text-with-gradient'>Writings</div>
-
-        <div className='container m-0 p-0 mt-4'>
+        <div className='ms-0 ps-0 mt-2 text-with-gradient'></div>
+        <div className='container ms-2 m-0 p-0 mt-4'>
           {writings.map((writing, index) => (
             <div key={index}>
               <figure>
                 <blockquote className='blockquote fs-5 text'>
                   <p>
-                    <a
-                      target='_blank'
-                      href={writing.link}
-                    >
+                    <a target='_blank' href={writing.link}>
                       {writing.title}
                     </a>
                   </p>
