@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Writing from './components/Writing';
-import TestingHub from './components/Testinghub';
 import Portfolio from './components/Portfolio';
 import { Route, Routes } from 'react-router-dom';
 import PageNotFound from './pages/PageNotFound';
+import Testing from './components/Testing';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/portfolio' element={<Portfolio />} />
-              <Route path='/testing' element={<TestingHub />} />
+              <Route path='/testing' element={<Testing />} />
               <Route path='/writing' element={<Writing />} />
 
               <Route path='*' element={<PageNotFound />} />
