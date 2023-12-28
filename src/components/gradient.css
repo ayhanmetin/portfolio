@@ -1,0 +1,14 @@
+.text-with-gradient {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-with-gradient::after {
+  content: '';
+  flex-grow: 1; /* This will allow the line to take up remaining space */
+  margin-left: 10px; /* Space between text and line */
+  height: 3px;
+  background: linear-gradient(to right, #0c6dfd, #084298);
+}
