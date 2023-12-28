@@ -7,7 +7,6 @@ import Portfolio from './components/Portfolio';
 import { Route, Routes } from 'react-router-dom';
 import PageNotFound from './pages/PageNotFound';
 import Testing from './components/Testing';
-import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         className='container'
       >
         <div className='row m-0'>
-          <div className='col-2 pl-0  m-0 p-0'>
+          <div className='col-2 pl-0 d-none d-xl-block m-0 p-0'>
             <Nav />
           </div>
           <div className='col-12 col-xl-8 align-self-right'>
