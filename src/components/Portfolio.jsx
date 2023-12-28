@@ -44,7 +44,7 @@ function Portfolio() {
                       >
                         <a
                           target='_blank'
-                          className=''
+                          className='link-primary link-offset-2 link-underline-opacity-100-hover'
                           href={project.liveDemoUrl}
                         >
                           {project.name}
