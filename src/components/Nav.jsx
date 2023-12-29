@@ -27,25 +27,25 @@ export default function Nav() {
           aria-current='true'
           to='/'
         >
-          00.home
+          home
         </NavLink>
         <NavLink
           className='list-group-item list-group-item-action p-1 ps-2'
           to='/portfolio'
         >
-          01.portfolio
+          portfolio
         </NavLink>
         <NavLink
           className='list-group-item list-group-item-action p-1 ps-2'
           to='/testing'
         >
-          02.testing
+          testing
         </NavLink>
         <NavLink
           className='list-group-item list-group-item-action p-1 ps-2'
           to='/writing'
         >
-          03.writings
+          writings
         </NavLink>
       </div>
       <div className='contact-info ms-2 p-0 mt-4 mb-0'>

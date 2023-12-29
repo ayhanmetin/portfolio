@@ -8,18 +8,14 @@ function Portfolio() {
     <>
       <div
         className='container'
-        style={{
-          marginLeft: 'calc(var(--bs-gutter-x) * 7)',
-          marginTop: '1.5rem',
-        }}
       >
         <header className='name'>
-          <p className='text-start mb-0 pt-2 mt-5 border-start ps-3 mb-5 p-1 border-5 border-primary'>
+          <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-5 p-1 border-5 border-primary'>
             Projects I'm proud of
           </p>
         </header>
         <div className='mt-2 text-with-gradient'></div>
-        <div className='container ms-2 p-1 mt-4'>
+        <div className='container ms-1 p-1 mt-4'>
           <div className='row row-cols-1 row-cols-md-4 g-4'>
             {projects.map((project, index) => (
               <div key={index} className='col'>
@@ -54,9 +50,9 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-                <div class='d-flex flex-row mb-3 align-items-center'>
-                  <figure class='figure p-2'>
-                    <figcaption class='figure-caption'>
+                <div className='d-flex flex-row mb-3 align-items-center'>
+                  <figure className='figure p-2'>
+                    <figcaption className='figure-caption'>
                       <a
                         className='link-offset-2 Light underline link-underline-opacity-25 link-underline-opacity-75-hover'
                         target='_blank'
@@ -66,8 +62,8 @@ function Portfolio() {
                       </a>
                     </figcaption>
                   </figure>
-                  <figure class='figure p-2'>
-                    <figcaption class='figure-caption'>
+                  <figure className='figure p-2'>
+                    <figcaption className='figure-caption'>
                       <a
                         className='link-offset-2 Light underline link-underline-opacity-25 link-underline-opacity-75-hover'
                         target='_blank'

@@ -6,13 +6,9 @@ function Writing() {
     <>
       <div
         className='container'
-        style={{
-          marginLeft: 'calc(var(--bs-gutter-x) * 7)',
-          marginTop: '1.5rem',
-        }}
       >
         <header className='name'>
-          <p className='text-start mb-0 pt-2 mt-5 border-start ps-3 mb-5 p-1 border-5 border-primary'>
+          <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-5 p-1 border-5 border-primary'>
           “Quality is not an act; it is a habit” <i>Aristotle.</i>
           </p>
         </header>

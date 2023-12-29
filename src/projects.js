@@ -8,8 +8,8 @@ const projects = [
     name: 'Feed-A-Star-Mole',
     imageUrl: moleImage,
     technologies: ['JS', 'HTML', 'CSS'],
-    githubUrl: 'https://feed-a-mole-red.vercel.app/',
-    liveDemoUrl: 'https://github.com/ayhanmetin/feed-a-mole',
+    githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
+    liveDemoUrl: 'https://feed-a-mole-red.vercel.app/',
   },
   {
     name: 'E-Commerce Page',
@@ -36,8 +36,8 @@ const projects = [
     name: 'Feed-A-Star-Mole',
     imageUrl: moleImage,
     technologies: ['JS', 'HTML', 'CSS'],
-    githubUrl: 'https://feed-a-mole-red.vercel.app/',
-    liveDemoUrl: 'https://github.com/ayhanmetin/feed-a-mole',
+    githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
+    liveDemoUrl: 'https://feed-a-mole-red.vercel.app/',
   },
   {
     name: 'E-Commerce Page',

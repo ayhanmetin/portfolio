@@ -7,8 +7,43 @@
 
 .text-with-gradient::after {
   content: '';
-  flex-grow: 1; 
+  flex-grow: 1;
   margin-left: 10px;
   height: 3px;
   background: linear-gradient(to right, #0c6dfd, #084298);
+}
+
+.square-card {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 40%; /* Adjust this value to change the size of the square */
+  position: relative;
+}
+
+.square-card .card-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.custom-square-card {
+  position: relative;
+  width: 90%; /* This will be controlled by the Bootstrap grid system */
+  padding-top: 60%; /* Adjust this to change the size of the squares */
+  overflow: hidden;
+  border: 3px solid #ddd; /* Example border, adjust as needed */
+  box-sizing: border-box;
+}
+
+.custom-square-card .card-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
