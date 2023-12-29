@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <>
       <div className='container mt-5'>
-        <div className='text-start mb-0 pt-2 border-start ps-3 p-1 border-5 border-primary'>
+        <div className='text-start mb-0 pt-2 ps-1 p-1'>
           <h2 className='fs-5 fw-semibold text-decoration-underline '>
             Technologies
           </h2>
@@ -28,7 +28,7 @@ export default function Skills() {
       </div>
 
       <div className='container mt-3 fs-4 text'>
-        <div className='text-start mb-0 pt-2 border-start ps-3 p-1 border-5 border-primary '>
+        <div className='text-start mb-0 pt-2 ps-1 p-1'>
           <h2 className='fs-5 fw-semibold text-decoration-underline'>
             Testing Tools
           </h2>
@@ -49,7 +49,7 @@ export default function Skills() {
       </div>
 
       <div className='container mt-3 fs-4 text'>
-        <div className='text-start mb-0 pt-2 border-start ps-3 p-1 border-5 border-primary '>
+        <div className='text-start mb-0 pt-2  ps-1 p-1'>
           <h2 className='fs-5 fw-semibold text-decoration-underline'>
             Certificates
           </h2>
