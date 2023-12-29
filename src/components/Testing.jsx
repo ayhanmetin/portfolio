@@ -19,7 +19,7 @@ function Testing() {
               <div key={index} className='col mb-4 px-1'>
                 <div className='custom-square-card'>
                   <div className='card-body p-2'>
-                    <h6 className='card-subtitle p-2 text-muted'>
+                    <h6 className='card-subtitle p-1 text-muted'>
                       {test.title}
                     </h6>
                     <p className='card-text mt-1'>
