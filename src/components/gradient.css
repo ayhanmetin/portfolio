@@ -16,7 +16,7 @@
 .square-card {
   height: 0;
   overflow: hidden;
-  padding-bottom: 40%; /* Adjust this value to change the size of the square */
+  padding-bottom: 40%; 
   position: relative;
 }
 
@@ -30,10 +30,10 @@
 
 .custom-square-card {
   position: relative;
-  width: 90%; /* This will be controlled by the Bootstrap grid system */
-  padding-top: 60%; /* Adjust this to change the size of the squares */
+  width: 90%; 
+  padding-top: 60%; 
   overflow: hidden;
-  border: 3px solid #ddd; /* Example border, adjust as needed */
+  border: 1px solid #ddd; 
   box-sizing: border-box;
 }
 

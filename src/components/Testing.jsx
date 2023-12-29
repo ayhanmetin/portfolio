@@ -8,7 +8,8 @@ function Testing() {
       <div className='container'>
         <header className='name'>
           <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-5 p-1 border-5 border-primary'>
-            “Quality is never an accident; it is always the result of intelligent effort.” – <i>John Ruskin.</i>
+            “Quality is never an accident; it is always the result of
+            intelligent effort.” – <i>John Ruskin.</i>
           </p>
         </header>
         <div className='mt-2 text-with-gradient'></div>
@@ -22,8 +23,13 @@ function Testing() {
                       {test.title}
                     </h6>
                     <p className='card-text mt-1'>
-                      {test.text} » 
-                      <a target='_blank' rel='noopener noreferrer' href={test.githubLink} className='card-link'>
+                      {test.text} » &nbsp;
+                      <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href={test.githubLink}
+                        className='card-link'
+                      >
                         github
                       </a>
                     </p>
