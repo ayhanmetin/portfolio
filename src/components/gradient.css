@@ -31,7 +31,7 @@
 .custom-square-card {
   position: relative;
   width: 90%; 
-  padding-top: 60%; 
+  padding-top: 50%; 
   overflow: hidden;
   border: 1px solid #ddd; 
   box-sizing: border-box;
