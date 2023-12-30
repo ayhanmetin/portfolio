@@ -27,7 +27,7 @@ export default function NavBar() {
           <ThemeIcon />
         </div>
       </header>
-      <nav className='navbar navbar-expand-lg bg-body-tertiary mb-3 '>
+      <nav className='navbar navbar-expand-lg bg-body-tertiary mb-3'>
         <div className='container-fluid'>
           <button
             className='navbar-toggler'
@@ -57,6 +57,22 @@ export default function NavBar() {
               <NavLink className='nav-link' to='/writing'>
                 writings
               </NavLink>
+            </div>
+            <div className='ms-auto link-hover'>
+              <a
+                target='_blank'
+                href='https://www.linkedin.com/in/ayhanmet/'
+                className='link-underline-light link-offset-2 Link opacity 75 link-hover me-3'
+              >
+                LinkedIn
+              </a>
+              <a
+                target='_blank'
+                href='https://github.com/ayhanmetin'
+                className='link-underline-light link-offset-2 Link opacity 75 link-hover me-3'
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </div>

@@ -4,7 +4,6 @@ import Home from './components/Home';
 import Writing from './components/Writing';
 import Portfolio from './components/Portfolio';
 import Testing from './components/Testing';
-import Footer from './components/Footer';
 import PageNotFound from './pages/PageNotFound';
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -33,7 +32,6 @@ function App() {
 
       <div className='row justify-content-center'>
         <div className='col-12'>
-          <Footer />
         </div>
       </div>
     </div>
