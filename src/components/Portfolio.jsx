@@ -18,11 +18,18 @@ function Portfolio() {
             {projects.map((project, index) => (
               <div key={index} className='col'>
                 <div className='position-relative'>
-                  <img
-                    src={project.imageUrl}
-                    className='imageLoad img-fluid border border-primary-subtle border-5'
-                    alt={project.name}
-                  />
+                  <a
+                    href={project.liveDemoUrl}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='link-light link-offset-2 link-underline-opacity-0'
+                  >
+                    <img
+                      src={project.imageUrl}
+                      className='imageLoad img-fluid border border-primary-subtle border-5'
+                      alt={project.name}
+                    />
+                  </a>
                   <div className='bg-primary-subtle position-absolute bottom-0 start-0'>
                     <div
                       className='text-white'
@@ -37,9 +44,10 @@ function Portfolio() {
                         style={{ marginBottom: '2px' }}
                       >
                         <a
-                          target='_blank'
-                          className='link-light link-offset-2 link-underline-opacity-0'
                           href={project.liveDemoUrl}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='link-light link-offset-2 link-underline-opacity-0'
                         >
                           {project.name}
                         </a>
@@ -52,9 +60,10 @@ function Portfolio() {
                   <figure className='figure p-2'>
                     <figcaption className='figure-caption'>
                       <a
-                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
-                        target='_blank'
                         href={project.githubUrl}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
                       >
                         github
                       </a>
@@ -63,9 +72,10 @@ function Portfolio() {
                   <figure className='figure p-2'>
                     <figcaption className='figure-caption'>
                       <a
-                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
-                        target='_blank'
                         href={project.liveDemoUrl}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
                       >
                         live demo
                       </a>
