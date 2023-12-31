@@ -6,9 +6,7 @@ import './gradient.css';
 function Portfolio() {
   return (
     <>
-      <div
-        className='container'
-      >
+      <div className='container'>
         <header className='name'>
           <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-5 p-1 border-5 border-primary fs-5 text'>
             Projects I'm proud of
@@ -22,7 +20,7 @@ function Portfolio() {
                 <div className='position-relative'>
                   <img
                     src={project.imageUrl}
-                    className='img-fluid border border-primary-subtle border-5'
+                    className='imageLoad img-fluid border border-primary-subtle border-5'
                     alt={project.name}
                   />
                   <div className='bg-primary-subtle position-absolute bottom-0 start-0'>
@@ -40,7 +38,7 @@ function Portfolio() {
                       >
                         <a
                           target='_blank'
-                          className='link-light link-offset-2 link-underline-opacity-100-hover'
+                          className='link-light link-offset-2 link-underline-opacity-0'
                           href={project.liveDemoUrl}
                         >
                           {project.name}
@@ -54,7 +52,7 @@ function Portfolio() {
                   <figure className='figure p-2'>
                     <figcaption className='figure-caption'>
                       <a
-                        className='link-offset-2 Light underline link-underline-opacity-25 link-underline-opacity-75-hover'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
                         target='_blank'
                         href={project.githubUrl}
                       >
@@ -65,7 +63,7 @@ function Portfolio() {
                   <figure className='figure p-2'>
                     <figcaption className='figure-caption'>
                       <a
-                        className='link-offset-2 Light underline link-underline-opacity-25 link-underline-opacity-75-hover'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
                         target='_blank'
                         href={project.liveDemoUrl}
                       >

@@ -62,14 +62,14 @@ export default function NavBar() {
               <a
                 target='_blank'
                 href='https://www.linkedin.com/in/ayhanmet/'
-                className='link-underline-light link-offset-2 Link opacity 75 link-hover me-3'
+                className='link-underline-light link-offset-2 Link opacity 100 link-hover me-3'
               >
                 LinkedIn
               </a>
               <a
                 target='_blank'
                 href='https://github.com/ayhanmetin'
-                className='link-underline-light link-offset-2 Link opacity 75 link-hover me-3'
+                className='link-underline-light link-offset-2 Link opacity 100 link-hover me-3'
               >
                 GitHub
               </a>

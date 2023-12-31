@@ -28,7 +28,7 @@ function Testing() {
                         target='_blank'
                         rel='noopener noreferrer'
                         href={test.githubLink}
-                        className='card-link'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                       >
                         github
                       </a>

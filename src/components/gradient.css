@@ -28,6 +28,16 @@
   right: 0;
 }
 
+.imageLoad {
+  opacity: 0.5; 
+  transition: opacity 1s; 
+}
+
+.imageLoad:hover {
+  opacity: 1;
+}
+
+
 .custom-square-card {
   position: relative;
   width: 90%; 
