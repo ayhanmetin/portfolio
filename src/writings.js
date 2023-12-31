@@ -30,7 +30,7 @@ const writings = [
   {
     title: 'Understanding the Fetch API’s Response Object »',
     author: 'Ayhan Metin',
-    date: '2 min read - 28 Aug 2023',
+    date: '28 Aug 2023',
     content: '#Fetch API, #JavaScript, #Web Development',
     link: 'https://medium.com/@test-mastery/understanding-the-fetch-apis-response-object-211699ef2f41',
   },
