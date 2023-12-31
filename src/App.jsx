@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-2'>
       <div className='row justify-content-center'>
         <div className='col-12'>
           <NavBar />
