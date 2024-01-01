@@ -1,5 +1,12 @@
 const writings = [
   {
+    title: 'Exploring and Understanding Large Language Models (LLMs) »',
+    author: 'Ayhan Metin',
+    date: '01 Jan 2024',
+    content: 'The Journey from Basic Machine Learning to Advanced LLMs',
+    link: 'https://medium.com/@test-mastery/exploring-and-understanding-large-language-models-llms-2dccbc657fac',
+  },
+  {
     title: 'Mastering the cy.wait() Method in Cypress »',
     author: 'Ayhan Metin',
     date: '15 Mart 2023',
