@@ -6,7 +6,7 @@ import AIChatAPP from './images/ai-chat-app.png';
 
 const projects = [
   {
-    name: 'Feed-A-Star-Mole',
+    name: 'Feed-A-Star Mole',
     imageUrl: moleImage,
     technologies: ['JS', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
@@ -34,7 +34,7 @@ const projects = [
     liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
   },
   {
-    name: 'AI Chat App with OpenAI and Node.js',
+    name: 'AI Chat App',
     imageUrl: AIChatAPP,
     technologies: ['JS', 'Node.js', 'OpenAI'],
     githubUrl: 'https://github.com/ayhanmetin/ai-chat-app',

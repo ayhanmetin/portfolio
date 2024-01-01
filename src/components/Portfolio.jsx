@@ -37,10 +37,12 @@ function Portfolio() {
                         width: '100%',
                         paddingBottom: '1px',
                         marginBottom: '1px',
+                        fontFamily: 'Arial, sans-serif',
+                        fontSize: '14px',
                       }}
                     >
                       <h3
-                        className='fs-6 p-0 text '
+                        className='fs-6 p-1 text '
                         style={{ marginBottom: '2px' }}
                       >
                         <a
