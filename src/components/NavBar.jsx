@@ -27,7 +27,7 @@ export default function NavBar() {
           <ThemeIcon />
         </div>
       </header>
-      <nav className='navbar navbar-expand-lg bg-body-tertiary mb-3'>
+      <nav className='navbar navbar-expand-lg bg-body-tertiary mb-5'>
         <div className='container-fluid'>
           <button
             className='navbar-toggler'
@@ -46,30 +46,30 @@ export default function NavBar() {
           >
             <div className='navbar-nav'>
               <NavLink className='nav-link' aria-current='page' to='/'>
-                home
+                Home
               </NavLink>
               <NavLink className='nav-link' to='/portfolio'>
-                portfolio
+                Portfolio
               </NavLink>
               <NavLink className='nav-link' to='/testing'>
-                testing
+                Testing
               </NavLink>
               <NavLink className='nav-link' to='/writing'>
-                writings
+                Writings
               </NavLink>
             </div>
             <div className='ms-auto link-hover'>
               <a
                 target='_blank'
                 href='https://www.linkedin.com/in/ayhanmet/'
-                className='link-underline-light link-offset-2 Link opacity 100 link-hover me-3'
+                className='link-underline link-offset-2 Link opacity 100 link-hover me-3'
               >
                 LinkedIn
               </a>
               <a
                 target='_blank'
                 href='https://github.com/ayhanmetin'
-                className='link-underline-light link-offset-2 Link opacity 100 link-hover me-3'
+                className='link-underline link-offset-2 Link opacity 100 link-hover me-3'
               >
                 GitHub
               </a>
