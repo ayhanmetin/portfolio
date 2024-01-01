@@ -14,7 +14,7 @@ function Portfolio() {
         </header>
         <div className='mt-2 text-with-gradient'></div>
         <div className='container ms-1 p-1 mt-4'>
-          <div className='row row-cols-1 row-cols-md-4 g-4'>
+          <div className='row row-cols-1 row-cols-md-5 g-4'>
             {projects.map((project, index) => (
               <div key={index} className='col'>
                 <div className='position-relative'>

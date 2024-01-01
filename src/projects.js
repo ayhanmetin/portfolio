@@ -32,6 +32,13 @@ const projects = [
     githubUrl: 'https://github.com/ayhanmetin/calculator',
     liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
   },
+  {
+    name: 'Calculator',
+    imageUrl: calculatorIOS,
+    technologies: ['JS', 'CSS', 'HTML'],
+    githubUrl: 'https://github.com/ayhanmetin/calculator',
+    liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
+  },
 ];
 
 export default projects;
