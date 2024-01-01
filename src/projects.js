@@ -2,7 +2,7 @@ import portfolioold from './images/portfolioold.png';
 import ecommerceImage from './images/e-commerce.png';
 import moleImage from './images/mole-cover.png';
 import calculatorIOS from './images/calculator.png';
-import AIChatAPP from './images/ai-chat-app.png';
+import AIChatAPP from './images/ai-chat-app.jpg';
 
 const projects = [
   {
