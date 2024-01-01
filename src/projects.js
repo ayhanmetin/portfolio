@@ -2,6 +2,7 @@ import portfolioold from './images/portfolioold.png';
 import ecommerceImage from './images/e-commerce.png';
 import moleImage from './images/mole-cover.png';
 import calculatorIOS from './images/calculator.png';
+import AIChatAPP from './images/ai-chat-app.png';
 
 const projects = [
   {
@@ -33,11 +34,11 @@ const projects = [
     liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
   },
   {
-    name: 'Calculator',
-    imageUrl: calculatorIOS,
-    technologies: ['JS', 'CSS', 'HTML'],
-    githubUrl: 'https://github.com/ayhanmetin/calculator',
-    liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
+    name: 'AI Chat App with OpenAI and Node.js',
+    imageUrl: AIChatAPP,
+    technologies: ['JS', 'Node.js', 'OpenAI'],
+    githubUrl: 'https://github.com/ayhanmetin/ai-chat-app',
+    liveDemoUrl: 'https://github.com/ayhanmetin/ai-chat-app',
   },
 ];
 
