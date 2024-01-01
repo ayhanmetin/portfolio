@@ -5,25 +5,31 @@ export default function Skills() {
     <>
       <div className='container mt-5'>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-5 fw-semibold text-decoration-underline '>
+          <h2 className='fs-5 fw-semibold text-decoration-underline'>
             Technologies
           </h2>
         </div>
         <div className='d-flex flex-wrap gap-2 py-4 fs-4 text'>
           <span className='badge bg-dark border border-primary'>React</span>
           <span className='badge bg-dark border border-primary'>
-            Javascript
+            JavaScript
           </span>
           <span className='badge bg-dark border border-primary'>
-            Typescript
+            TypeScript
           </span>
+          <span className='badge bg-dark border border-primary'>Redux</span>
+          <span className='badge bg-dark border border-primary'>Next.js</span>
           <span className='badge bg-dark border border-primary'>Git</span>
           <span className='badge bg-dark border border-primary'>Python</span>
           <span className='badge bg-dark border border-primary'>SQL</span>
+          <span className='badge bg-dark border border-primary'>
+            PostgreSQL
+          </span>
           <span className='badge bg-dark border border-primary'>Java</span>
+          <span className='badge bg-dark border border-primary'>Node.js</span>
           <span className='badge bg-dark border border-primary'>Bootstrap</span>
-          <span className='badge bg-dark border border-primary'>Dockers</span>
-          <span className='badge bg-dark border border-primary'>Figma</span>
+          <span className='badge bg-dark border border-primary'>Tailwind</span>
+          <span className='badge bg-dark border border-primary'>Docker</span>
         </div>
       </div>
 
@@ -45,6 +51,7 @@ export default function Skills() {
           <span className='badge bg-dark border border-primary'>Postman</span>
           <span className='badge bg-dark border border-primary'>Jira</span>
           <span className='badge bg-dark border border-primary'>Testrail</span>
+          <span className='badge bg-dark border border-primary'>Figma</span>
         </div>
       </div>
 
