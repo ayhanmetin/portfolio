@@ -7,22 +7,22 @@ function Testing() {
     <>
       <div className='container'>
         <header className='name'>
-          <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-5 p-1 border-5 border-primary fs-5 text'>
+          <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-4 p-1 border-1 fs-6 text'>
             “Quality is never an accident; it is always the result of
             intelligent effort.” – <i>John Ruskin.</i>
           </p>
         </header>
-        <div className='mt-2 text-with-gradient'></div>
+        <hr className='featurette-divider mb-3'></hr>
         <div className='container ms-3 p-1 mt-4'>
-          <div className='row row-cols-1 row-cols-md-4 g-4'>
+          <div className='row row-cols-1 row-cols-md-5 g-4'>
             {githubTesting.map((test, index) => (
               <div key={index} className='col mb-4 px-1'>
                 <div className='custom-square-card'>
                   <div className='card-body p-2'>
-                    <h6 className='card-subtitle p-1 text-muted fs-5 text'>
+                    <h6 className='card-subtitle p-1 text-muted fs-6 text'>
                       {test.title}
                     </h6>
-                    <p className='card-text mt-1 '>
+                    <p className='card-text mt-1'>
                       {test.text} » &nbsp;
                       <a
                         target='_blank'

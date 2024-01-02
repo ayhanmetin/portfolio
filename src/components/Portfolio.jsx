@@ -8,13 +8,11 @@ function Portfolio() {
     <>
       <div className='container'>
         <header className='name'>
-          <p className='text-start mb-0 pt-2 mt-3 border-start ps-3 mb-5 p-1 border-5 border-primary fs-5 text'>
-            Projects I'm proud of
-          </p>
+          <p class='text-start'>Projects I'm proud of</p>
         </header>
-        <div className='mt-2 text-with-gradient'></div>
+        <hr className='featurette-divider mb-3'></hr>
         <div className='container ms-1 p-1 mt-4'>
-          <div className='row row-cols-1 row-cols-md-5 g-4'>
+          <div className='row row-cols-1 row-cols-md-6 g-4'>
             {projects.map((project, index) => (
               <div key={index} className='col'>
                 <div className='position-relative'>
@@ -26,7 +24,7 @@ function Portfolio() {
                   >
                     <img
                       src={project.imageUrl}
-                      className='imageLoad img-fluid border border-primary border-5'
+                      className='imageLoad img-fluid border border-primary border-1'
                       alt={project.name}
                     />
                   </a>
@@ -42,8 +40,8 @@ function Portfolio() {
                       }}
                     >
                       <h3
-                        className='fs-6 p-1 text '
-                        style={{ marginBottom: '2px' }}
+                        className=' p-1 text '
+                        style={{ marginBottom: '2px', fontSize: '12px' }}
                       >
                         <a
                           href={project.liveDemoUrl}
@@ -65,7 +63,7 @@ function Portfolio() {
                         href={project.githubUrl}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-7 text'
                       >
                         github
                       </a>
@@ -77,7 +75,7 @@ function Portfolio() {
                         href={project.liveDemoUrl}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-6 text'
+                        className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover fs-7 text'
                       >
                         live demo
                       </a>

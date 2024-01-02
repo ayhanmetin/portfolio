@@ -5,73 +5,53 @@ export default function Skills() {
     <>
       <div className='container mt-5'>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-5 fw-semibold text-decoration-underline'>
-            Technologies
-          </h2>
+          <h2 className='fs-6 text-decoration-underline'>Technologies</h2>
         </div>
-        <div className='d-flex flex-wrap gap-2 py-4 fs-4 text'>
-          <span className='badge bg-dark border border-primary'>React</span>
-          <span className='badge bg-dark border border-primary'>
-            JavaScript
-          </span>
-          <span className='badge bg-dark border border-primary'>
-            TypeScript
-          </span>
-          <span className='badge bg-dark border border-primary'>Redux</span>
-          <span className='badge bg-dark border border-primary'>Next.js</span>
-          <span className='badge bg-dark border border-primary'>Git</span>
-          <span className='badge bg-dark border border-primary'>Python</span>
-          <span className='badge bg-dark border border-primary'>SQL</span>
-          <span className='badge bg-dark border border-primary'>
-            PostgreSQL
-          </span>
-          <span className='badge bg-dark border border-primary'>Java</span>
-          <span className='badge bg-dark border border-primary'>Node.js</span>
-          <span className='badge bg-dark border border-primary'>Bootstrap</span>
-          <span className='badge bg-dark border border-primary'>Tailwind</span>
-          <span className='badge bg-dark border border-primary'>Docker</span>
+        <div className='d-flex flex-wrap gap-2 py-4 fs-6 text'>
+          <span className='badge bg-dark border'>React</span>
+          <span className='badge bg-dark border'>JavaScript</span>
+          <span className='badge bg-dark border'>TypeScript</span>
+          <span className='badge bg-dark border'>Redux</span>
+          <span className='badge bg-dark border'>Next.js</span>
+          <span className='badge bg-dark border'>Git</span>
+          <span className='badge bg-dark border'>Python</span>
+          <span className='badge bg-dark border'>SQL</span>
+          <span className='badge bg-dark border'>PostgreSQL</span>
+          <span className='badge bg-dark border'>Java</span>
+          <span className='badge bg-dark border'>Node.js</span>
+          <span className='badge bg-dark border'>Bootstrap</span>
+          <span className='badge bg-dark border'>Tailwind</span>
+          <span className='badge bg-dark border'>Docker</span>
         </div>
       </div>
 
-      <div className='container mt-3 fs-4 text'>
+      <div className='container mt-3 fs-5 text'>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-5 fw-semibold text-decoration-underline'>
-            Testing Tools
-          </h2>
+          <h2 className='fs-6 text-decoration-underline'>Testing Tools</h2>
         </div>
         <div className='d-flex flex-wrap gap-2 py-4'>
-          <span className='badge bg-dark border border-primary'>Cypress</span>
-          <span className='badge bg-dark border border-primary'>Selenium</span>
-          <span className='badge bg-dark border border-primary'>
-            Playwright
-          </span>
-          <span className='badge bg-dark border border-primary'>Jest</span>
-          <span className='badge bg-dark border border-primary'>Pytest</span>
-          <span className='badge bg-dark border border-primary'>Puppeteer</span>
-          <span className='badge bg-dark border border-primary'>Postman</span>
-          <span className='badge bg-dark border border-primary'>Jira</span>
-          <span className='badge bg-dark border border-primary'>Testrail</span>
-          <span className='badge bg-dark border border-primary'>Figma</span>
+          <span className='badge bg-dark border'>Cypress</span>
+          <span className='badge bg-dark border'>Selenium</span>
+          <span className='badge bg-dark border'>Playwright</span>
+          <span className='badge bg-dark border'>Jest</span>
+          <span className='badge bg-dark border'>Pytest</span>
+          <span className='badge bg-dark border'>Puppeteer</span>
+          <span className='badge bg-dark border'>Postman</span>
+          <span className='badge bg-dark border'>Jira</span>
+          <span className='badge bg-dark border'>Testrail</span>
+          <span className='badge bg-dark border'>Figma</span>
         </div>
       </div>
 
-      <div className='container mt-3 fs-4 text'>
+      <div className='container mt-3 fs-5 text'>
         <div className='text-start mb-0 pt-2  ps-1 p-1'>
-          <h2 className='fs-5 fw-semibold text-decoration-underline'>
-            Certificates
-          </h2>
+          <h2 className='fs-6 text-decoration-underline'>Certificates</h2>
         </div>
         <div className='d-flex flex-wrap gap-2 py-4'>
-          <span className='badge bg-dark border border-primary'>
-            ISTQB® Foundation Level
-          </span>
-          <span className='badge bg-dark border border-primary'>
-            PSM I, Scrum.org
-          </span>
-          <span className='badge bg-dark border border-primary'>
-            Postman API Expert
-          </span>
-          <span className='badge bg-dark border border-primary'>
+          <span className='badge bg-dark border'>ISTQB® Foundation Level</span>
+          <span className='badge bg-dark border'>PSM I, Scrum.org</span>
+          <span className='badge bg-dark border'>Postman API Expert</span>
+          <span className='badge bg-dark border'>
             Cypress End-to-End Testing
           </span>
         </div>

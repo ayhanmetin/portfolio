@@ -8,7 +8,7 @@ import ThemeIcon from './ThemeIcon';
 export default function NavBar() {
   return (
     <>
-      <header className='d-flex justify-content-between align-items-center border-start border-5 border-primary ps-3 mb-5'>
+      <header className='d-flex justify-content-between align-items-center ps-3 mb-5'>
         <div className='d-flex align-items-center'>
           <div className='me-3'>
             <img
@@ -41,7 +41,7 @@ export default function NavBar() {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div
-            className='collapse navbar-collapse fs-5 text fw-medium'
+            className='collapse navbar-collapse fs-7 text fw-medium'
             id='navbarNav'
           >
             <div className='navbar-nav'>
@@ -62,14 +62,14 @@ export default function NavBar() {
               <a
                 target='_blank'
                 href='https://www.linkedin.com/in/ayhanmet/'
-                className='link-underline link-offset-2 Link opacity 100 link-hover me-3'
+                className='fs-7 text link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover me-3'
               >
                 LinkedIn
               </a>
               <a
                 target='_blank'
                 href='https://github.com/ayhanmetin'
-                className='link-underline link-offset-2 Link opacity 100 link-hover me-3'
+                className='fs-7 text link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover me-3'
               >
                 GitHub
               </a>
