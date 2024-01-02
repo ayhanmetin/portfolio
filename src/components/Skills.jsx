@@ -25,7 +25,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className='container mt-3 fs-4 text'>
+      <div className='container mt-3 fs-5 text'>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
           <h2 className='fs-5 text-decoration-underline'>Testing Tools</h2>
         </div>
@@ -43,7 +43,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className='container mt-3 fs-4 text'>
+      <div className='container mt-3 fs-5 text'>
         <div className='text-start mb-0 pt-2  ps-1 p-1'>
           <h2 className='fs-5 text-decoration-underline'>Certificates</h2>
         </div>
