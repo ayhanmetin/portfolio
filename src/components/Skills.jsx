@@ -5,9 +5,9 @@ export default function Skills() {
     <>
       <div className='container mt-5'>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-6 text-decoration-underline'>Technologies</h2>
+          <h2 className='fs-5 text-decoration-underline'>Technologies</h2>
         </div>
-        <div className='d-flex flex-wrap gap-2 py-4 fs-6 text'>
+        <div className='d-flex flex-wrap gap-1 py-2 fs-5 text'>
           <span className='badge bg-dark border'>React</span>
           <span className='badge bg-dark border'>JavaScript</span>
           <span className='badge bg-dark border'>TypeScript</span>
@@ -25,11 +25,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className='container mt-3 fs-5 text'>
+      <div className='container mt-3 fs-4 text'>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-6 text-decoration-underline'>Testing Tools</h2>
+          <h2 className='fs-5 text-decoration-underline'>Testing Tools</h2>
         </div>
-        <div className='d-flex flex-wrap gap-2 py-4'>
+        <div className='d-flex flex-wrap gap-1 py-2'>
           <span className='badge bg-dark border'>Cypress</span>
           <span className='badge bg-dark border'>Selenium</span>
           <span className='badge bg-dark border'>Playwright</span>
@@ -43,11 +43,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className='container mt-3 fs-5 text'>
+      <div className='container mt-3 fs-4 text'>
         <div className='text-start mb-0 pt-2  ps-1 p-1'>
-          <h2 className='fs-6 text-decoration-underline'>Certificates</h2>
+          <h2 className='fs-5 text-decoration-underline'>Certificates</h2>
         </div>
-        <div className='d-flex flex-wrap gap-2 py-4'>
+        <div className='d-flex flex-wrap gap-1 py-2'>
           <span className='badge bg-dark border'>ISTQB® Foundation Level</span>
           <span className='badge bg-dark border'>PSM I, Scrum.org</span>
           <span className='badge bg-dark border'>Postman API Expert</span>
