@@ -53,7 +53,7 @@ function ThemeIcon() {
       ) : (
         <button
           onClick={handleTheme}
-          className="btn btn-outline-primary d-flex align-items-center ms-2 p-1 mt-5 btn-sm mb-3"
+          className="btn btn-dark d-flex align-items-center ms-2 p-1 mt-5 btn-sm mb-3"
         >
           {darkThemeIcon}
           <span className="ms-2">dark</span>

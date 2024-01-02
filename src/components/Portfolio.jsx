@@ -7,8 +7,10 @@ function Portfolio() {
   return (
     <>
       <div className='container'>
-        <header className='name'>
-          <p class='text-start'>Projects I'm proud of</p>
+      <header className='name'>
+          <p className='text-start mb-0 pt-2 mt-3 ps-1 mb-4 p-1 fs-6 text'>
+          Projects I'm proud of
+          </p>
         </header>
         <hr className='featurette-divider mb-3'></hr>
         <div className='container ms-1 p-1 mt-4'>
