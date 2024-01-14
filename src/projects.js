@@ -3,11 +3,12 @@ import ecommerceImage from './images/e-commerce.png';
 import moleImage from './images/mole-cover.png';
 import calculatorIOS from './images/calculator.png';
 import AIChatAPP from './images/ai-chat-app.jpg';
+import pm from './images/project-management-app.png';
 
 const projects = [
   {
     name: 'Project Management App',
-    imageUrl: moleImage,
+    imageUrl: pm,
     technologies: ['React', 'HTML', 'TailWind'],
     githubUrl: 'https://github.com/ayhanmetin/project-management-app',
     liveDemoUrl: 'https://project-management-one-amber.vercel.app/',
