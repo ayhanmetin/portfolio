@@ -6,6 +6,13 @@ import AIChatAPP from './images/ai-chat-app.jpg';
 
 const projects = [
   {
+    name: 'Project Management App',
+    imageUrl: moleImage,
+    technologies: ['React', 'HTML', 'TailWind'],
+    githubUrl: 'https://github.com/ayhanmetin/project-management-app',
+    liveDemoUrl: 'https://project-management-one-amber.vercel.app/',
+  },
+  {
     name: 'Feed-A-Star Mole',
     imageUrl: moleImage,
     technologies: ['JS', 'HTML', 'CSS'],
