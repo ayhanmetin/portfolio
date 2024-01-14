@@ -17,7 +17,7 @@ function App() {
       <div className='row justify-content-center mb-5'>
         <div className='col-12'>
           <Routes>
-            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/' element={<Portfolio />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
         </div>

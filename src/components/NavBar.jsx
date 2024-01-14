@@ -45,11 +45,8 @@ export default function NavBar() {
             id='navbarNav'
           >
             <div className='navbar-nav'>
-              <NavLink className='nav-link' to='/portfolio'>
-                Portfolio
-              </NavLink>
             </div>
-            <div className='ms-auto link-hover'>
+            <div className=' link-hover'>
               <a
                 target='_blank'
                 href='https://www.linkedin.com/in/ayhanmet/'
