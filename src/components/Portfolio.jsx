@@ -4,14 +4,15 @@ import projects from '../projects';
 import './gradient.css';
 import Testing from './Testing';
 import Writing from './Writing';
+import Skills from './Skills';
 
 function Portfolio() {
   return (
     <>
       <div className='container'>
-      <header className='name'>
+        <header className='name'>
           <p className='text-start mb-0 pt-2 mt-3 ps-1 mb-4 p-1 fs-6 text'>
-          Projects I'm proud of
+            Projects I'm proud of
           </p>
         </header>
         <hr className='featurette-divider mb-3'></hr>
@@ -92,6 +93,7 @@ function Portfolio() {
         </div>
         <Testing />
         <Writing />
+        <Skills />
       </div>
     </>
   );

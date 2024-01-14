@@ -45,9 +45,6 @@ export default function NavBar() {
             id='navbarNav'
           >
             <div className='navbar-nav'>
-              <NavLink className='nav-link' aria-current='page' to='/'>
-                Home
-              </NavLink>
               <NavLink className='nav-link' to='/portfolio'>
                 Portfolio
               </NavLink>

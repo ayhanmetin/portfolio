@@ -4,6 +4,10 @@ export default function Skills() {
   return (
     <>
       <div className='container mt-5'>
+      <header className='name'>
+          <p className='text-start mb-0 pt-2 mt-3 ps-1 mb-4 p-1 fs-6 text'>Skills </p>
+        </header>
+        <hr className='featurette-divider mb-3'></hr>
         <div className='text-start mb-0 pt-2 ps-1 p-1'>
           <h2 className='fs-5 text-decoration-underline'>Technologies</h2>
         </div>
