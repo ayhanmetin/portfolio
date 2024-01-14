@@ -4,56 +4,46 @@ export default function Skills() {
   return (
     <>
       <div className='container mt-5'>
-        <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-5 text-decoration-underline'>Technologies</h2>
+        <div className='card'>
+          <div className='card-header'>
+            <h2 className='fs-5'>Technologies</h2>
+          </div>
+          <div className='card-body'>
+            <div className='d-flex flex-wrap gap-2'>
+              {/* Technology badges */}
+              {['React', 'JavaScript', 'TypeScript', 'Git', 'Python', 'SQL', 'PostgreSQL', 'Java', 'Node.js', 'Bootstrap', 'Tailwind'].map((tech) => (
+                <span key={tech} className='badge bg-primary'>{tech}</span>
+              ))}
+            </div>
+          </div>
         </div>
-        <div className='d-flex flex-wrap gap-1 py-2 fs-5 text'>
-          <span className='badge bg-dark border'>React</span>
-          <span className='badge bg-dark border'>JavaScript</span>
-          <span className='badge bg-dark border'>TypeScript</span>
-          <span className='badge bg-dark border'>Redux</span>
-          <span className='badge bg-dark border'>Next.js</span>
-          <span className='badge bg-dark border'>Git</span>
-          <span className='badge bg-dark border'>Python</span>
-          <span className='badge bg-dark border'>SQL</span>
-          <span className='badge bg-dark border'>PostgreSQL</span>
-          <span className='badge bg-dark border'>Java</span>
-          <span className='badge bg-dark border'>Node.js</span>
-          <span className='badge bg-dark border'>Bootstrap</span>
-          <span className='badge bg-dark border'>Tailwind</span>
-          <span className='badge bg-dark border'>Docker</span>
-        </div>
-      </div>
 
-      <div className='container mt-3 fs-5 text'>
-        <div className='text-start mb-0 pt-2 ps-1 p-1'>
-          <h2 className='fs-5 text-decoration-underline'>Testing Tools</h2>
+        <div className='card mt-3'>
+          <div className='card-header'>
+            <h2 className='fs-5'>Testing Tools</h2>
+          </div>
+          <div className='card-body'>
+            <div className='d-flex flex-wrap gap-2'>
+              {/* Testing tools badges */}
+              {['Cypress', 'Selenium', 'Playwright', 'Jest', 'Pytest', 'Puppeteer', 'Postman', 'Jira', 'Testrail', 'Figma'].map((tool) => (
+                <span key={tool} className='badge bg-secondary'>{tool}</span>
+              ))}
+            </div>
+          </div>
         </div>
-        <div className='d-flex flex-wrap gap-1 py-2'>
-          <span className='badge bg-dark border'>Cypress</span>
-          <span className='badge bg-dark border'>Selenium</span>
-          <span className='badge bg-dark border'>Playwright</span>
-          <span className='badge bg-dark border'>Jest</span>
-          <span className='badge bg-dark border'>Pytest</span>
-          <span className='badge bg-dark border'>Puppeteer</span>
-          <span className='badge bg-dark border'>Postman</span>
-          <span className='badge bg-dark border'>Jira</span>
-          <span className='badge bg-dark border'>Testrail</span>
-          <span className='badge bg-dark border'>Figma</span>
-        </div>
-      </div>
 
-      <div className='container mt-3 fs-5 text'>
-        <div className='text-start mb-0 pt-2  ps-1 p-1'>
-          <h2 className='fs-5 text-decoration-underline'>Certificates</h2>
-        </div>
-        <div className='d-flex flex-wrap gap-1 py-2'>
-          <span className='badge bg-dark border'>ISTQB® Foundation Level</span>
-          <span className='badge bg-dark border'>PSM I, Scrum.org</span>
-          <span className='badge bg-dark border'>Postman API Expert</span>
-          <span className='badge bg-dark border'>
-            Cypress End-to-End Testing
-          </span>
+        <div className='card mt-3'>
+          <div className='card-header'>
+            <h2 className='fs-5'>Certificates</h2>
+          </div>
+          <div className='card-body'>
+            <div className='d-flex flex-wrap gap-2'>
+              {/* Certificate badges */}
+              {['ISTQB® Foundation Level', 'PSM I, Scrum.org', 'Postman API Expert', 'Cypress End-to-End Testing'].map((certificate) => (
+                <span key={certificate} className='badge bg-success'>{certificate}</span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </>

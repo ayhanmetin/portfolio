@@ -51,12 +51,6 @@ export default function NavBar() {
               <NavLink className='nav-link' to='/portfolio'>
                 Portfolio
               </NavLink>
-              <NavLink className='nav-link' to='/testing'>
-                Testing
-              </NavLink>
-              <NavLink className='nav-link' to='/writing'>
-                Writings
-              </NavLink>
             </div>
             <div className='ms-auto link-hover'>
               <a

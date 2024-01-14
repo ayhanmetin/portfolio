@@ -7,10 +7,7 @@ function Testing() {
     <>
       <div className='container'>
         <header className='name'>
-          <p className='text-start mb-0 pt-2 mt-3 ps-1 mb-4 p-1 fs-6 text'>
-            “Quality is never an accident; it is always the result of
-            intelligent effort.” – <i>John Ruskin.</i>
-          </p>
+          <p className='text-start mb-0 pt-2 mt-3 ps-1 mb-4 p-1 fs-6 text'>Testing </p>
         </header>
         <hr className='featurette-divider mb-3'></hr>
         <div className='container ms-3 p-1 mt-4'>

@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projects from '../projects';
 import './gradient.css';
+import Testing from './Testing';
+import Writing from './Writing';
 
 function Portfolio() {
   return (
@@ -88,6 +90,8 @@ function Portfolio() {
             ))}
           </div>
         </div>
+        <Testing />
+        <Writing />
       </div>
     </>
   );

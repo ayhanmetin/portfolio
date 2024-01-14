@@ -8,7 +8,6 @@ import PageNotFound from './pages/PageNotFound';
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-
 function App() {
   return (
     <div className='container mt-2'>
@@ -23,16 +22,13 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/testing' element={<Testing />} />
-            <Route path='/writing' element={<Writing />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
         </div>
       </div>
 
       <div className='row justify-content-center'>
-        <div className='col-12'>
-        </div>
+        <div className='col-12'></div>
       </div>
     </div>
   );
