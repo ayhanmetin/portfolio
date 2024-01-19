@@ -5,7 +5,7 @@ export default function Blog() {
     <div className="container mb-5">
       <div className="row justify-content-center">
         <div className="col-lg-8">
-          <h2>Coming soon...</h2>
+        <div>Coming soon...</div>
           {/* <h2 className="display-5 link-body-emphasis mb-1">
             Sample blog post
           </h2>
