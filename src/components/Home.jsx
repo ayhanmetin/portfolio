@@ -11,9 +11,9 @@ export default function Home() {
           <div className='col-lg-8'>
             <h4 className='pb-2 fw-bolder'>Welcome!</h4>
             <p>
-              I am Ayhan Metin, passionate about Web Applications and AI. I have
-              mastered test automation using Selenium WebDriver and Cypress, and
-              agile practices. Feel free to connect with me on &nbsp;
+              I am Ayhan Metin, I have mastered test automation using Selenium
+              WebDriver and Cypress, passionate about Web Applications and AI,
+              and agile practices. Feel free to connect with me on &nbsp;
               <a
                 target='_blank'
                 href='https://www.linkedin.com/in/ayhanmet/'
@@ -41,18 +41,16 @@ export default function Home() {
                 </a>
               </p>
               <p>
-                I have ISTQB and Scrum Master certifications (PSM I) and also
-                joined Postman API expert program. In additionaly I have
-                knowledge about tools like Testrail, Appium, Playwright,
-                RestAssured and more.
+                I have ISTQB Foundation Level and Scrum Master certifications
+                (PSM I) and also joined Postman API expert program. In
+                additionaly I have knowledge about tools like Testrail, Appium,
+                Playwright, RestAssured, and more.
               </p>
               <h5 className='my-4 fw-bolder'>Automation Practice</h5>
               <p>
                 Explore my collection of practical webpages and exercises,
-                including detailed Cypress login page tutorials and GitHub
-                repositories. Delve into my work with Selenium and Playwright,
-                showcasing a range of hands-on exercises designed to enhance
-                your understanding and skills.
+                including detailed Cypress, Selenium and Playwright tutorials
+                and to see the codes go to my GitHub repositories.
               </p>
               <div className='container p-0 mt-4 mb-2 fs-4 text'>
                 {githubTesting.map((test, index) => (
@@ -78,7 +76,7 @@ export default function Home() {
               </div>
               <h5 className='my-4 fw-bolder'>Articles</h5>
               <p>
-                Dive into my articles where I discuss and delve deeply into
+                Dive into my articles where I discuss and dive deeply into
                 various aspects of test automation, development, and the latest
                 technological updates.
               </p>
@@ -105,9 +103,9 @@ export default function Home() {
               <div></div>
               <h5 className='mt-4 fw-bolder'>Beyond Test Automation</h5>
               <p>
-                Here are some of the projects I am proud of in Frontend
-                Development, featuring React, JavaScript, Bootstrap, TailWind,
-                and OpenAI API.
+                Here are some of the projects that I am proud of in frontend
+                development, featuring React, JavaScript, Bootstrap, TailWind,
+                and the OpenAI API.
               </p>
               <div className='container p-0 mt-4 mb-5 fs-4 text'>
                 {projects.map((project, index) => (
@@ -133,8 +131,9 @@ export default function Home() {
               </div>
               <h5 className='fw-bolder'>Looking Ahead</h5>
               <p>
-                Feel free to contact me to share insights on the latest
-                technologies and more.
+                I'm always eager to connect with fellow tech enthusiasts and
+                professionals. Feel free to contact me to share insights on the
+                latest technologies and more.
               </p>
             </article>
           </div>
