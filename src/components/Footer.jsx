@@ -1,32 +1,47 @@
-import { Link } from 'react-router-dom';
+import React from "react";
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer className='fixed-bottom'>
-      <div className='container'>
-        <hr className='featurette-divider mb-3'></hr>
-        <div className='d-flex justify-content-between'>
-          <p>
-            © 2023 Ayhan Metin ·&nbsp;
+    <>
+      <footer className="p-0 m-0">
+        <ul className="nav justify-content-center border-top pb-0 mb-0">
+          <li className="nav-item">
             <a
-              target='_blank'
-              href='https://www.linkedin.com/in/ayhanmet/'
-              className='text-decoration-underline text-reset link-hover'
+              href="mailto:ayhanmetinde@gmail.com"
+              className="nav-link px-2 text-body-secondary"
             >
-              linkedin
+              E-mail
             </a>
-          </p>
-          <p>
-            <Link className='text-decoration-underline text-reset' to='/'>
-              home
-            </Link>
-          </p>
-        </div>
-      </div>
-    </footer>
+          </li>
+          <li className="nav-item">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ayhanmet/"
+              className="nav-link px-2 text-body-secondary"
+            >
+              Linkedin
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              target="_blank"
+              href="https://github.com/ayhanmetin"
+              className="nav-link px-2 text-body-secondary"
+            >
+              Github
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              target="_blank"
+              href="https://instagram.com/ayhanmett"
+              className="nav-link px-2 text-body-secondary"
+            >
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </>
   );
 }
-
-export default Footer;
-
-

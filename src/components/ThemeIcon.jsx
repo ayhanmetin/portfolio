@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const lightThemeIcon = (
   <svg
@@ -28,35 +28,33 @@ const darkThemeIcon = (
 );
 
 function ThemeIcon() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState("light");
 
   function handleTheme() {
-    if (theme === 'light') {
-      document.documentElement.setAttribute('data-bs-theme', 'dark');
-      setTheme('dark');
+    if (theme === "light") {
+      document.documentElement.setAttribute("data-bs-theme", "dark");
+      setTheme("dark");
     } else {
-      document.documentElement.setAttribute('data-bs-theme', 'light');
-      setTheme('light');
+      document.documentElement.setAttribute("data-bs-theme", "light");
+      setTheme("light");
     }
   }
 
   return (
     <>
-      {theme === 'light' ? (
+      {theme === "light" ? (
         <button
           onClick={handleTheme}
-          className="btn btn-outline-secondary d-flex align-items-center ms-2 p-1 mt-5 btn-sm mb-3"
+          className="btn btn-outline-secondary d-flex align-items-center ms-2 p-1 mt-2 btn-sm mb-3"
         >
           {lightThemeIcon}
-          <span className="ms-2">light</span>
         </button>
       ) : (
         <button
           onClick={handleTheme}
-          className="btn btn-dark d-flex align-items-center ms-2 p-1 mt-5 btn-sm mb-3"
+          className="btn btn-dark d-flex align-items-center ms-2 p-1 mt-2 btn-sm mb-3"
         >
           {darkThemeIcon}
-          <span className="ms-2">dark</span>
         </button>
       )}
     </>
