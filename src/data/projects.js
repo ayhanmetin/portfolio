@@ -7,7 +7,7 @@ import pm from "../images/project-management-app.png";
 
 const projects = [
   {
-    name: "Project Management",
+    name: "To-Do List",
     imageUrl: pm,
     technologies: ["React", "HTML", "TailWind"],
     githubUrl: "https://github.com/ayhanmetin/project-management-app",
