@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Nav.css";
+import "./nav.css";
 import Profile from "./Profile";
 import ThemeIcon from "./ThemeIcon";
 import "bootstrap/dist/js/bootstrap.bundle.min";
