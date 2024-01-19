@@ -12,7 +12,7 @@ export default function Home() {
             <h4 className='pb-2 fw-bolder'>Welcome!</h4>
             <p>
               I am Ayhan Metin, I have mastered test automation using Selenium
-              WebDriver and Cypress, passionate about Web Applications and AI,
+              WebDriver and Cypress, passionate about Web Applications, AI,
               and agile practices. Feel free to connect with me on &nbsp;
               <a
                 target='_blank'
