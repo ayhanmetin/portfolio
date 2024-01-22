@@ -103,32 +103,18 @@ export default function Home() {
               <div></div>
               <h5 className='mt-4 fw-bolder'>Beyond Test Automation</h5>
               <p>
-                Here are some of the projects that I am proud of in frontend
-                development, featuring React, JavaScript, Bootstrap, TailWind,
-                and the OpenAI API.
+                Visit the {' '}
+                <a
+                  target='_blank'
+                  href='/projects'
+                  className='fs-7 text fw-medium link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                >
+                  projects {' '}
+                </a>
+                created using React, JavaScript, Bootstrap, Tailwind, and the
+                OpenAI API »
               </p>
-              <div className='container p-0 mt-4 mb-5 fs-4 text'>
-                {projects.map((project, index) => (
-                  <div key={index}>
-                    <ul>
-                      <figure>
-                        <blockquote className='blockquote fs-6 text'>
-                          <p>
-                            <a
-                              className='link-body-emphasis link-offset-2 
-                            link-underline-opacity-25 link-underline-opacity-75-hover'
-                              target='_blank'
-                              href={project.liveDemoUrl}
-                            >
-                              <li>{project.name}</li>
-                            </a>
-                          </p>
-                        </blockquote>
-                      </figure>
-                    </ul>
-                  </div>
-                ))}
-              </div>
+
               <h5 className='fw-bolder'>Looking Ahead</h5>
               <p>
                 I'm always eager to connect with fellow tech enthusiasts and
