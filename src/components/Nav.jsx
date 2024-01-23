@@ -8,12 +8,12 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 export default function Nav() {
   return (
     <>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-center align-items-center gap-5">
         <div></div>
         <div className="mb-4 mt-3">
           <Profile />
         </div>
-        <div className="pe-2">
+        <div className="mt-3">
           <ThemeIcon />
         </div>
       </div>
