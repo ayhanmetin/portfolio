@@ -112,7 +112,7 @@ export default function Home() {
                   projects {' '}
                 </a>
                 created using React, JavaScript, Bootstrap, Tailwind,
-                OpenAI API , and more »
+                OpenAI API , and more.
               </p>
 
               <h5 className='fw-bolder'>Looking Ahead</h5>
