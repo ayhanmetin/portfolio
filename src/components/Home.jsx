@@ -103,7 +103,6 @@ export default function Home() {
               </a>{' '}
               for more.
             </p>
-
             <h5 className='fw-bolder'>Looking Ahead</h5>
             <p>
               I am always eager to connect with fellow tech enthusiasts and
