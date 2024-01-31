@@ -20,7 +20,7 @@ export default function Test() {
           </div>
           <div className='col-lg-6'>
             <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-              Login Page Exercises
+              Login Page 
             </h1>
             <p className='lead'>
               A Simple Login Page: I've developed test cases and automated
@@ -66,7 +66,7 @@ export default function Test() {
           </div>
           <div className='col-lg-6'>
             <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-              E-commerce Exercises
+              E-Commerce
             </h1>
             <p className='lead'>
               I developed an e-commerce page for my frontend program's final
@@ -117,7 +117,7 @@ export default function Test() {
           </div>
           <div className='col-lg-6'>
             <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-              To-do List Exercises
+              To-do List
             </h1>
             <p className='lead'>
               As part of my learning project, I developed a To-Do List using

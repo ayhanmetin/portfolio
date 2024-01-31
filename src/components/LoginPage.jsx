@@ -9,7 +9,7 @@ export default function LoginPage() {
         <div className='p-2'>
           <h2 className='p-2 text-center'>Login Page</h2>
           <p
-            className='p-2 text-center fw-medium'
+            className='p-2 text-center fw-light'
             style={{ maxWidth: '600px', margin: '0 auto' }}
           >
             Explore the Login Test Practice Showcase, designed for demonstrating
