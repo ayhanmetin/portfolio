@@ -12,11 +12,11 @@ export default function LoginPage() {
             className='p-2 text-center fw-light'
             style={{ maxWidth: '600px', margin: '0 auto' }}
           >
-            Explore the Login Test Practice Showcase, designed for demonstrating
+            Explore the login test practice showcase, designed for demonstrating
             automated testing with tools like Cypress, Selenium, and Playwright.
           </p>
           <p
-            className='p-2 text-center border-bottom'
+            className='p-2 text-center mt-3 border-top border-bottom'
             style={{ maxWidth: '600px', margin: '0 auto' }}
           >
             Github repositories for
@@ -47,13 +47,13 @@ export default function LoginPage() {
               Playwright
             </a>
           </p>
-          <div className='p-2 text-center mt-3 mb-0 pb-0 fw-semibold'>
+          <div className='p-2 text-center mt-3 mb-0 pb-0 fw-normal'>
             Testing login page I used password and username below
             <br />
           </div>
           <div className='p-2 text-center mt-3 mb-0 pb-0'>
-            Username: ayhan89 <br />
-            Password: marmarisfrankfurt
+            <span className='fw-semibold'>Username</span>: ayhan89 <br />
+            <span className='fw-semibold'>Password</span>: marmarisfrankfurt
           </div>
         </div>
         <div className='p-2 text-center'>
