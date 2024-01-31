@@ -117,7 +117,7 @@ export default function Test() {
           </div>
           <div className='col-lg-6'>
             <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-              To-do List
+              To-Do List
             </h1>
             <p className='lead'>
               As part of my learning project, I developed a To-Do List using
