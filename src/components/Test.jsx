@@ -70,14 +70,14 @@ export default function Test() {
             </h1>
             <p className='lead'>
               I developed an e-commerce page for my frontend program's final
-              project, which serves as a demo (available{' '}
+              project, which serves as a demo available{' '}
               <a
                 href='https://ayhando-ecommerce.vercel.app/'
                 className='link-underline-warning'
               >
                 here
               </a>
-              ). Additionally, I created test cases and automated them using
+              . Additionally, I created test cases and automated them using
               popular tools. You can access the page and explore the GitHub
               repositories and code below.
             </p>
