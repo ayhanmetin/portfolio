@@ -11,117 +11,105 @@ export default function Home() {
           <div className='col-lg-8'>
             <h4 className='pb-2 fw-bolder'>Welcome!</h4>
             <p>
-              I am Ayhan Metin, specializing test automation using Selenium
-              WebDriver and Cypress, passionate about Web Applications, AI, and
-              agile practices. Feel free to connect with me on &nbsp;
+              My name is Ayhan Metin, and I specialize in test automation using
+              tools such as Selenium WebDriver and Cypress. I'm passionate about
+              web applications, AI technologies, and agile methodologies. For
+              collaboration or opportunities, feel free to connect with me on
               <a
-                target='_blank'
                 href='https://www.linkedin.com/in/ayhanmet/'
-                className='fs-7 text fw-medium link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                className='link-body-emphasis'
+                rel='noopener noreferrer'
               >
+                {' '}
                 LinkedIn
               </a>
-              &nbsp; for further discussion or opportunities.
+              .
             </p>
 
             <h5 className='my-4 fw-bolder'>Experience and Expertise</h5>
-            <article>
-              <p>
-                I have years of experience in making Web UIs for e-commerce work
-                better, doing manual and A/B tests to make sure they work as
-                they should, are reliable, and easy to use. I've worked on many
-                freelance projects and am confident in improving automation for
-                your projects. Recently, I developed a website for{' '}
-                <a
-                  target='_blank'
-                  href='https://www.birsasigorta.com.tr'
-                  className='fs-7 text fw-medium link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                >
-                  Birsa Insurance.
-                </a>
-              </p>
-              <p>
-                I have ISTQB Foundation Level and Scrum Master certifications
-                (PSM I) and also joined Postman API expert program. In
-                additionaly I have knowledge about tools like Testrail, Appium,
-                Playwright, RestAssured, and more.
-              </p>
-              <h5 className='my-4 fw-bolder'>Automation Practice</h5>
-              <p>
-                Explore my collection of practical webpages and exercises,
-                including detailed Cypress, Selenium and Playwright tutorials
-                and to see the codes go to my GitHub repositories.
-              </p>
-              <div className='container p-0 mt-4 mb-2 fs-4 text'>
-                {githubTesting.map((test, index) => (
-                  <div key={index}>
-                    <ul>
-                      <figure>
-                        <blockquote className='blockquote fs-6 text'>
-                          <p>
-                            <a
-                              className='link-body-emphasis link-offset-2 
-                            link-underline-opacity-25 link-underline-opacity-75-hover'
-                              target='_blank'
-                              href={test.githubLink}
-                            >
-                              <li>{test.title}</li>
-                            </a>
-                          </p>
-                        </blockquote>
-                      </figure>
-                    </ul>
-                  </div>
-                ))}
-              </div>
-              <h5 className='my-4 fw-bolder'>Articles</h5>
-              <p>
-                Dive into my articles where I discuss and dive deeply into
-                various aspects of test automation, development, and the latest
-                technological updates.
-              </p>
-              <div className='container p-0 mt-4 mb-2 fs-4 text'>
-                {writings.map((writing, index) => (
-                  <div key={index}>
-                    <figure>
-                      <blockquote className='blockquote fs-6 text'>
-                        <p>
-                          <a
-                            className='link-body-emphasis link-offset-2 
-                            link-underline-opacity-25 link-underline-opacity-75-hover'
-                            target='_blank'
-                            href={writing.link}
-                          >
-                            {writing.title}
-                          </a>
-                        </p>
-                      </blockquote>
-                    </figure>
-                  </div>
-                ))}
-              </div>
-              <div></div>
-              <h5 className='mt-4 fw-bolder'>Beyond Test Automation</h5>
-              <p>
-                Visit the {' '}
-                <a
-                  target='_blank'
-                  href='/projects'
-                  className='fs-7 text fw-medium link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                >
-                  projects {' '}
-                </a>
-                created using React, JavaScript, Bootstrap, Tailwind,
-                OpenAI API, and more.
-              </p>
+            <p>
+              With years of experience in enhancing Web UIs for e-commerce
+              platforms, I ensure optimal performance, reliability, and user
+              experience through meticulous manual and A/B testing. My freelance
+              projects demonstrate my capability to improve automation processes
+              effectively. Notably, I have recently developed a comprehensive
+              website for {' '}
+              <a
+                href='https://www.birsasigorta.com.tr'
+                target='_blank'
+                className='link-body-emphasis'
+                rel='noopener noreferrer'
+              >
+                Birsa Insurance
+              </a>
+              .
+            </p>
+            <p>
+              I hold ISTQB Foundation Level and Scrum Master (PSM I)
+              certifications and am part of the Postman API expert program.
+              Additionally, I am proficient with tools like Testrail, Appium,
+              Playwright, RestAssured, among others.
+            </p>
 
-              <h5 className='fw-bolder'>Looking Ahead</h5>
-              <p>
-                I'm always eager to connect with fellow tech enthusiasts and
-                professionals. Feel free to contact me to share insights on the
-                latest technologies and more.
-              </p>
-            </article>
+            <h5 className='my-4 fw-bolder'>Automation Practice</h5>
+            <p>
+              Discover my portfolio of webpages and exercises showcasing
+              detailed tutorials on Cypress, Selenium, and Playwright. Visit my
+              GitHub repositories to explore the code.
+            </p>
+            <div className='container p-0 mt-4 mb-2'>
+              {githubTesting.map((test, index) => (
+                <div key={index} className='fs-6 text'>
+                  <a
+                    href={test.githubLink}
+                    target='_blank'
+                    className='link-body-emphasis'
+                    rel='noopener noreferrer'
+                  >
+                    {test.title}
+                  </a>
+                </div>
+              ))}
+            </div>
+
+            <h5 className='my-4 fw-bolder'>Articles</h5>
+            <p>
+              Dive into my articles where I explore various aspects of test
+              automation, development, and the latest in technology.
+            </p>
+            <div className='container p-0 mt-4 mb-2'>
+              {writings.map((writing, index) => (
+                <div key={index} className='fs-6 text'>
+                  <a
+                    href={writing.link}
+                    target='_blank'
+                    className='link-body-emphasis'
+                    rel='noopener noreferrer'
+                  >
+                    {writing.title}
+                  </a>
+                </div>
+              ))}
+            </div>
+
+            <h5 className='mt-4 fw-bolder'>Beyond Test Automation</h5>
+            <p>
+              Explore the projects I've created using React, JavaScript,
+              Bootstrap, Tailwind, and OpenAI API. Visit the
+              <a href='/projects' className='link-body-emphasis'>
+                {' '}
+                projects page
+              </a>{' '}
+              for more.
+            </p>
+
+            <h5 className='fw-bolder'>Looking Ahead</h5>
+            <p>
+              I am always eager to connect with fellow tech enthusiasts and
+              professionals. Contact me to share insights or discuss the latest
+              technologies.
+            </p>
           </div>
         </div>
       </div>
