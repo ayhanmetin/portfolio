@@ -41,7 +41,7 @@ export default function Footer() {
             </a>
           </li>
         </ul>
-        <p class='text-center text-body-secondary border-'>
+        <p className='text-center text-body-secondary border-'>
           © 2024 Ayhan Metin
         </p>
       </footer>

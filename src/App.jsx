@@ -7,9 +7,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
-import Selenium from "./components/Selenium";
-import Cypress from "./components/Cypress";
-import Playwright from "./components/Playwright";
+import ToDo from "./components/ToDo";
+import LoginPage from "./components/LoginPage";
+import Ecommerce from "./components/Ecommerce";
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/practice" element={<Test />} />
-          <Route path="/selenium" element={<Selenium />} />
-          <Route path="/cypress" element={<Cypress />} />
-          <Route path="/playwright" element={<Playwright />} />
+          <Route path="practice/ecommerce" element={<Ecommerce />} />
+          <Route path="practice/loginpage" element={<LoginPage />} />
+          <Route path="practice/todolist" element={<ToDo />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>

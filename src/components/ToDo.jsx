@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Playwright() {
+export default function ToDo() {
   return <div>Coming soon...</div>;
 }
