@@ -4,68 +4,74 @@ import TestCasesPage from '../practice/TestLoginCase';
 
 export default function LoginPage() {
   return (
-    <div className='container'>
-      <div className='d-flex flex-column mb-3'>
-        <div className='p-2'>
-          <h2 className='p-2 text-center'>Login Page</h2>
-          <p
-            className='p-2 text-center fw-light'
-            style={{ maxWidth: '600px', margin: '0 auto' }}
-          >
-            Explore the login test practice showcase, designed for demonstrating
-            automated testing with tools like Cypress, Selenium, and Playwright.
-          </p>
-          <p
-            className='p-2 text-center mt-3 border-top border-bottom'
-            style={{ maxWidth: '600px', margin: '0 auto' }}
-          >
-            Github repositories for
-            <a
-              href=''
-              className='text-decoration-none mx-1'
-              target='_blank'
-              rel='noopener noreferrer'
+    <>
+      <h3 className='pb-4 mb-4 border-bottom text-center'>
+        Login Page Exercises
+      </h3>
+      <div className='container'>
+        <div className='d-flex flex-column mb-3'>
+          <div className='p-2'>
+            <p
+              className='p-2 text-center fw-light'
+              style={{ maxWidth: '600px', margin: '0 auto' }}
             >
-              Cypress
-            </a>
-            ,
-            <a
-              href=''
-              className='text-decoration-none mx-1'
-              target='_blank'
-              rel='noopener noreferrer'
+              Explore our login test practices, designed to demonstrate
+              automated testing with tools such as Cypress, Selenium, and
+              Playwright.
+            </p>
+            <p
+              className='p-2 text-center mt-3 border-top border-bottom'
+              style={{ maxWidth: '600px', margin: '0 auto' }}
             >
-              Selenium
-            </a>
-            , and
-            <a
-              href=''
-              className='text-decoration-none mx-1'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Playwright
-            </a>
-          </p>
-          <div className='p-2 text-center mt-3 mb-0 pb-0 fw-normal'>
-            Testing login page I used password and username below
-            <br />
+              Find the Github repositories for
+              <a
+                href=''
+                className='text-decoration-none mx-1'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Cypress
+              </a>
+              ,
+              <a
+                href=''
+                className='text-decoration-none mx-1'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Selenium
+              </a>
+              , and
+              <a
+                href=''
+                className='text-decoration-none mx-1'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Playwright
+              </a>{' '}
+              here.
+            </p>
+            <div className='p-2 text-center mt-3 mb-0 pb-0 fw-normal'>
+              For testing the login page, use the username and password provided
+              below:
+            </div>
+            <div className='p-2 text-center mt-3 mb-0 pb-0'>
+              <span className='fw-semibold'>Username:</span> ayhan89 <br />
+              <span className='fw-semibold'>Password:</span> marmarisfrankfurt
+            </div>
           </div>
-          <div className='p-2 text-center mt-3 mb-0 pb-0'>
-            <span className='fw-semibold'>Username</span>: ayhan89 <br />
-            <span className='fw-semibold'>Password</span>: marmarisfrankfurt
+          <div className='p-2 text-center'>
+            <Login />
           </div>
-        </div>
-        <div className='p-2 text-center'>
-          <Login />
-        </div>
-        <div className='d-flex p-2 justify-content-center mt-0 pt-0'>
-          <h3 className='p-2 mb-0 pb-0 text-center'>Test Cases for Practice</h3>
-        </div>
-        <div className='d-flex p-2 justify-content-center'>
-          <TestCasesPage />
+          <div className='d-flex p-2 justify-content-center mt-0 pt-0'>
+            <h3 className='p-2 mb-0 pb-0 text-center'>Test Cases</h3>
+          </div>
+          <div className='d-flex p-2 justify-content-center'>
+            <TestCasesPage />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

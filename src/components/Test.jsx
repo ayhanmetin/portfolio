@@ -2,50 +2,64 @@ import React from 'react';
 import loginpage from '../images/loginpage.png';
 import ecommerce from '../images/ecommerce.png';
 import todolist from '../images/todolist.png';
+import { Link } from 'react-router-dom';
 
 export default function Test() {
   return (
     <>
+      <h3 className='pb-4 mb-4 border-bottom text-center'>Practice</h3>{' '}
       <div className='container col-xxl-8 px-4 py-5'>
         {/* Login Page Section */}
         <div className='row align-items-center g-5 py-5'>
           <div className='col-10 col-sm-8 col-lg-6'>
-            <img
-              src={loginpage}
-              style={{ width: '350px', height: '350px' }}
-              className='d-block mx-lg-auto img-fluid img-thumbnail rounded'
-              alt='Login Page'
-              loading='lazy'
-            />
+            <Link to='/practice/loginpage' target='_blank'>
+              <img
+                src={loginpage}
+                style={{ width: '350px', height: '350px' }}
+                className='d-block mx-lg-auto img-fluid img-thumbnail rounded'
+                alt='Login Page'
+                loading='lazy'
+              />
+            </Link>
           </div>
           <div className='col-lg-6'>
-            <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-              Login Page 
-            </h1>
+            <Link
+              to='/practice/loginpage'
+              className='text-decoration-none'
+              target='_blank'
+            >
+              <h1 className='display-5 fw-bold text-body text-body-emphasis lh-1 mb-3'>
+                Login Page
+              </h1>
+            </Link>
             <p className='lead'>
               A Simple Login Page: I've developed test cases and automated
               testing using renowned tools. Access the page via this{' '}
-              <a href='#' className='link-underline-warning'>
+              <Link
+                target='_blank'
+                to='/practice/loginpage'
+                className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+              >
                 link
-              </a>
+              </Link>
               , and explore the GitHub repositories and code below.
             </p>
             <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Cypress
               </button>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Selenium
               </button>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Playwright
               </button>
@@ -73,7 +87,7 @@ export default function Test() {
               project, which serves as a demo available{' '}
               <a
                 href='https://ayhando-ecommerce.vercel.app/'
-                className='link-underline-warning'
+                className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
               >
                 here
               </a>
@@ -84,19 +98,19 @@ export default function Test() {
             <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Cypress
               </button>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Selenium
               </button>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Playwright
               </button>
@@ -122,10 +136,10 @@ export default function Test() {
             <p className='lead'>
               As part of my learning project, I developed a To-Do List using
               React. Additionally, I created test cases and automated them using
-              popular tools. You can access the tool available{' '}
+              popular tools. You can use the live demo{' '}
               <a
                 href='https://project-management-one-amber.vercel.app/'
-                className='link-underline-warning'
+                className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
               >
                 here
               </a>
@@ -134,19 +148,19 @@ export default function Test() {
             <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Cypress
               </button>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Selenium
               </button>
               <button
                 type='button'
-                className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Playwright
               </button>
