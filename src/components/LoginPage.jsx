@@ -15,15 +15,14 @@ export default function LoginPage() {
               className='p-2 text-center fw-light'
               style={{ maxWidth: '600px', margin: '0 auto' }}
             >
-              Explore our login test practices, designed to demonstrate
-              automated testing with tools such as Cypress, Selenium, and
-              Playwright.
+              Explore my login test practices, designed to demonstrate automated
+              testing with tools such as Cypress, Selenium, and Playwright.
             </p>
             <p
               className='p-2 text-center mt-3 border-top border-bottom'
               style={{ maxWidth: '600px', margin: '0 auto' }}
             >
-              Find the Github repositories for
+              Find the <span className='fw-bold'>github</span> repositories for
               <a
                 href=''
                 className='text-decoration-none mx-1'
@@ -48,9 +47,8 @@ export default function LoginPage() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Playwright
+                Playwright.
               </a>{' '}
-              here.
             </p>
             <div className='p-2 text-center mt-3 mb-0 pb-0 fw-normal'>
               For testing the login page, use the username and password provided
