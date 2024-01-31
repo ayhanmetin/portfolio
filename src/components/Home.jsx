@@ -14,7 +14,7 @@ export default function Home() {
               My name is Ayhan Metin, and I specialize in test automation using
               tools such as Selenium WebDriver and Cypress. I'm passionate about
               web applications, AI technologies, and agile methodologies. For
-              collaboration or opportunities, feel free to connect with me on
+              collaboration or opportunities, feel free to connect with me on {' '}
               <a
                 href='https://www.linkedin.com/in/ayhanmet/'
                 target='_blank'
@@ -96,7 +96,7 @@ export default function Home() {
             <h5 className='mt-4 fw-bolder'>Beyond Test Automation</h5>
             <p>
               Explore the projects I've created using React, JavaScript,
-              Bootstrap, Tailwind, and OpenAI API. Visit the
+              Bootstrap, Tailwind, and OpenAI API. Visit the {' '}
               <a href='/projects' className='link-body-emphasis'>
                 {' '}
                 projects page
