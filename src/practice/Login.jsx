@@ -25,7 +25,7 @@ export default function Login() {
     } else if (password.length < 8) {
       setErrorMessage('Password is too weak!');
       setShowErrorMessage(true);
-    } else if (password !== 'marmarisfrankfurt') {
+    } else if (password !== 'ayhan123') {
       setErrorMessage('Your password is invalid!');
       setShowErrorMessage(true);
     } else {

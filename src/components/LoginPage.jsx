@@ -56,7 +56,7 @@ export default function LoginPage() {
             </div>
             <div className='p-2 text-center mt-3 mb-0 pb-0'>
               <span className='fw-semibold'>Username:</span> ayhan89 <br />
-              <span className='fw-semibold'>Password:</span> marmarisfrankfurt
+              <span className='fw-semibold'>Password:</span> ayhan123
             </div>
           </div>
           <div className='p-2 text-center'>
