@@ -9,7 +9,7 @@ const projects = [
   {
     name: "To-Do List",
     imageUrl: pm,
-    technologies: ["React", "HTML", "TailWind"],
+    technologies: ["React", "HTML", "Tailwind"],
     githubUrl: "https://github.com/ayhanmetin/project-management-app",
     liveDemoUrl: "https://project-management-one-amber.vercel.app/",
     id: 1,
