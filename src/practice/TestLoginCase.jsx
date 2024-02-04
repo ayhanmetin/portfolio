@@ -41,7 +41,7 @@ const TestCasesPage = () => {
                 <a
                   className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                   target='_blank'
-                  href=''
+                  href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Positive_Login_Test.cy.js'
                 >
                   Go to code
                 </a>

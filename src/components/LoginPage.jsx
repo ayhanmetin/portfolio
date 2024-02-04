@@ -24,7 +24,7 @@ export default function LoginPage() {
             >
               Find the <span className='fw-bold'>Github</span> repositories for
               <a
-                href='//https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main/cypress/e2e/Test_Login_Page'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main/cypress/e2e/Test_Login_Page'
                 className='text-decoration-none mx-1'
                 target='_blank'
                 rel='noopener noreferrer'
