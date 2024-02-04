@@ -37,15 +37,15 @@ const TestCasesPage = () => {
                 </li>
                 <li>Verify button 'Log out' is displayed on the page</li>
               </ol>
-              <div className='d-flex justify-content-center mt-0 pt-0'>
-                <a
-                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                  target='_blank'
-                  href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Positive_Login_Test.cy.js'
-                >
-                  Go to code
-                </a>
-              </div>
+            </div>
+            <div className='d-flex justify-content-center mt-0 mb-2'>
+              <a
+                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Positive_Login_Test.cy.js'
+              >
+                Go to code
+              </a>
             </div>
           </div>
         </div>
@@ -74,15 +74,15 @@ const TestCasesPage = () => {
                   Verify error message text is 'Your username is invalid!'
                 </li>
               </ol>
-              <div className='d-flex justify-content-center mt-0 pt-0'>
-                <a
-                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                  target='_blank'
-                  href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Username_%20Test.cy.js'
-                >
-                  Go to code
-                </a>
-              </div>
+            </div>
+            <div className='d-flex justify-content-center mt-0 mb-2'>
+              <a
+                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Username_%20Test.cy.js'
+              >
+                Go to code
+              </a>
             </div>
           </div>
         </div>
@@ -111,15 +111,15 @@ const TestCasesPage = () => {
                   Verify error message text is 'Your password is invalid!'
                 </li>
               </ol>
-              <div className='d-flex justify-content-center mt-0 pt-0'>
-                <a
-                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                  target='_blank'
-                  href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Password_Test.cy.js'
-                >
-                  Go to code
-                </a>
-              </div>
+            </div>
+            <div className='d-flex justify-content-center mt-0 mb-2'>
+              <a
+                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Password_Test.cy.js'
+              >
+                Go to code
+              </a>
             </div>
           </div>
         </div>
@@ -149,15 +149,15 @@ const TestCasesPage = () => {
                   empty!'
                 </li>
               </ol>
-              <div className='d-flex justify-content-center mt-0 pt-0'>
-                <a
-                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                  target='_blank'
-                  href=''
-                >
-                  Go to code
-                </a>
-              </div>
+            </div>
+            <div className='d-flex justify-content-center mt-0 mb-2'>
+              <a
+                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Username_Field_Validation.cy.js'
+              >
+                Go to code
+              </a>
             </div>
           </div>
         </div>
@@ -187,15 +187,15 @@ const TestCasesPage = () => {
                   empty! '
                 </li>
               </ol>
-              <div className='d-flex justify-content-center mt-0 pt-0'>
-                <a
-                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                  target='_blank'
-                  href=''
-                >
-                  Go to code
-                </a>
-              </div>
+            </div>
+            <div className='d-flex justify-content-center mt-0 mb-2'>
+              <a
+                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Password_Field_Validation.cy.js'
+              >
+                Go to code
+              </a>
             </div>
           </div>
         </div>
@@ -222,15 +222,15 @@ const TestCasesPage = () => {
                 <li>Verify error message is displayed</li>
                 <li>Verify error message text is 'Password is too weak!'</li>
               </ol>
-              <div className='d-flex justify-content-center mt-0 pt-0'>
-                <a
-                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                  target='_blank'
-                  href=''
-                >
-                  Go to code
-                </a>
-              </div>
+            </div>
+            <div className='d-flex justify-content-center mt-0 mb-2'>
+              <a
+                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Password_Field_Validation.cy.js'
+              >
+                Go to code
+              </a>
             </div>
           </div>
         </div>
