@@ -27,16 +27,25 @@ const TestCasesPage = () => {
               <h5 className='card-title border-bottom mb-3 text-center'>
                 Positive LogIn Test
               </h5>
-              <ol className='card-text fs-6'>
+              <ol className='card-text mb-0 fs-6'>
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
-                <li>Type password 'marmarisfrankfurt' into Password field</li>
+                <li>Type password 'ayhan123' into Password field</li>
                 <li>Push Submit button</li>
                 <li>
                   Verify new page contains expected text "Login Successful! "
                 </li>
-                <li>Verify button 'Log out' is displayed on the new page</li>
+                <li>Verify button 'Log out' is displayed on the page</li>
               </ol>
+              <div className='d-flex justify-content-center mt-0 pt-0'>
+                <a
+                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  target='_blank'
+                  href=''
+                >
+                  Go to code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -55,16 +64,25 @@ const TestCasesPage = () => {
               <h5 className='card-title border-bottom mb-3 text-center'>
                 Negative Username Test
               </h5>
-              <ol className='card-text fs-6'>
+              <ol className='card-text mb-0 fs-6'>
                 <li>Open page</li>
                 <li>Type username 'incorrectUser' into Username field</li>
-                <li>Type password 'marmarisfrankfurt' into Password field</li>
+                <li>Type password 'ayhan123' into Password field</li>
                 <li>Push Submit button</li>
                 <li>Verify error message is displayed</li>
                 <li>
                   Verify error message text is 'Your username is invalid!'
                 </li>
               </ol>
+              <div className='d-flex justify-content-center mt-0 pt-0'>
+                <a
+                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  target='_blank'
+                  href=''
+                >
+                  Go to code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -83,7 +101,7 @@ const TestCasesPage = () => {
               <h5 className='card-title border-bottom mb-3 text-center'>
                 Negative Password Test
               </h5>
-              <ol className='card-text fs-6'>
+              <ol className='card-text mb-0 fs-6'>
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Type password 'incorrectPassword' into Password field</li>
@@ -93,6 +111,15 @@ const TestCasesPage = () => {
                   Verify error message text is 'Your password is invalid!'
                 </li>
               </ol>
+              <div className='d-flex justify-content-center mt-0 pt-0'>
+                <a
+                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  target='_blank'
+                  href=''
+                >
+                  Go to code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -111,10 +138,10 @@ const TestCasesPage = () => {
               <h5 className='card-title border-bottom mb-3 text-center'>
                 Username Field Validation
               </h5>
-              <ol className='card-text fs-6'>
+              <ol className='card-text mb-0 fs-6'>
                 <li>Open page</li>
                 <li>Leave Username field empty</li>
-                <li>Type password 'marmarisfrankfurt' into Password field</li>
+                <li>Type password 'ayhan123' into Password field</li>
                 <li>Push Submit button</li>
                 <li>Verify error message is displayed</li>
                 <li>
@@ -122,6 +149,15 @@ const TestCasesPage = () => {
                   empty!'
                 </li>
               </ol>
+              <div className='d-flex justify-content-center mt-0 pt-0'>
+                <a
+                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  target='_blank'
+                  href=''
+                >
+                  Go to code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -140,7 +176,7 @@ const TestCasesPage = () => {
               <h5 className='card-title border-bottom mb-3 text-center'>
                 Password Field Validation
               </h5>
-              <ol className='card-text fs-6'>
+              <ol className='card-text mb-0 fs-6'>
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Leave Password field empty</li>
@@ -151,6 +187,15 @@ const TestCasesPage = () => {
                   empty! '
                 </li>
               </ol>
+              <div className='d-flex justify-content-center mt-0 pt-0'>
+                <a
+                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  target='_blank'
+                  href=''
+                >
+                  Go to code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -169,7 +214,7 @@ const TestCasesPage = () => {
               <h5 className='card-title border-bottom mb-3 text-center'>
                 Password Strength Test
               </h5>
-              <ol className='card-text fs-6'>
+              <ol className='card-text mb-0 fs-6'>
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Type a weak password "1234" into Password field</li>
@@ -177,6 +222,15 @@ const TestCasesPage = () => {
                 <li>Verify error message is displayed</li>
                 <li>Verify error message text is 'Password is too weak!'</li>
               </ol>
+              <div className='d-flex justify-content-center mt-0 pt-0'>
+                <a
+                  className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  target='_blank'
+                  href=''
+                >
+                  Go to code
+                </a>
+              </div>
             </div>
           </div>
         </div>

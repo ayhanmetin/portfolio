@@ -22,9 +22,9 @@ export default function LoginPage() {
               className='p-2 text-center mt-3 border-top border-bottom'
               style={{ maxWidth: '600px', margin: '0 auto' }}
             >
-              Find the <span className='fw-bold'>github</span> repositories for
+              Find the <span className='fw-bold'>Github</span> repositories for
               <a
-                href=''
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation'
                 className='text-decoration-none mx-1'
                 target='_blank'
                 rel='noopener noreferrer'

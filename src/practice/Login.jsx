@@ -7,6 +7,7 @@ export default function Login() {
   const [successMessage, setSuccessMessage] = useState('');
   const [showErrorMessage, setShowErrorMessage] = useState(false);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleSubmit = event => {
     event.preventDefault();
@@ -15,8 +16,6 @@ export default function Login() {
     setSuccessMessage('');
     setShowSuccessMessage(false);
 
-    // Test Cases Logic with updated conditions
-    
     if (!username || !password) {
       setErrorMessage('Username and password cannot be empty!');
       setShowErrorMessage(true);
@@ -32,7 +31,16 @@ export default function Login() {
     } else {
       setSuccessMessage('Login Successful!');
       setShowSuccessMessage(true);
+      setIsLoggedIn(true); 
     }
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false); 
+    setUsername(''); 
+    setPassword('');
+    setSuccessMessage(''); 
+    setShowSuccessMessage(false); 
   };
 
   return (
@@ -47,38 +55,46 @@ export default function Login() {
                   {errorMessage}
                 </div>
               )}
-              {showSuccessMessage && (
-                <div className='alert alert-success' role='alert'>
-                  {successMessage}
-                </div>
-              )}
-              <form onSubmit={handleSubmit}>
-                <div className='form-floating mb-3'>
-                  <input
-                    type='text'
-                    className='form-control'
-                    id='floatingUsername'
-                    placeholder='Username'
-                    value={username}
-                    onChange={e => setUsername(e.target.value)}
-                  />
-                  <label htmlFor='floatingUsername'>Username</label>
-                </div>
-                <div className='form-floating mb-3'>
-                  <input
-                    type='password'
-                    className='form-control'
-                    id='floatingPassword'
-                    placeholder='Password'
-                    value={password}
-                    onChange={e => setPassword(e.target.value)}
-                  />
-                  <label htmlFor='floatingPassword'>Password</label>
-                </div>
-                <button className='btn btn-lg btn-primary w-100' type='submit'>
-                  Sign in
+              {!isLoggedIn ? (
+                <>
+                  {showSuccessMessage && (
+                    <div className='alert alert-success' role='alert'>
+                      {successMessage}
+                    </div>
+                  )}
+                  <form onSubmit={handleSubmit}>
+                    <div className='form-floating mb-3'>
+                      <input
+                        type='text'
+                        className='form-control'
+                        id='floatingUsername'
+                        placeholder='Username'
+                        value={username}
+                        onChange={e => setUsername(e.target.value)}
+                      />
+                      <label htmlFor='floatingUsername'>Username</label>
+                    </div>
+                    <div className='form-floating mb-3'>
+                      <input
+                        type='password'
+                        className='form-control'
+                        id='floatingPassword'
+                        placeholder='Password'
+                        value={password}
+                        onChange={e => setPassword(e.target.value)}
+                      />
+                      <label htmlFor='floatingPassword'>Password</label>
+                    </div>
+                    <button className='btn btn-lg btn-primary w-100' type='submit'>
+                      Sign in
+                    </button>
+                  </form>
+                </>
+              ) : (
+                <button className='btn btn-lg btn-secondary w-100' onClick={handleLogout}>
+                  Log out
                 </button>
-              </form>
+              )}
             </div>
           </div>
         </div>
