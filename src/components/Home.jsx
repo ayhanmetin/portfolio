@@ -11,13 +11,13 @@ export default function Home() {
         <div className='col-lg-8'>
           <p>
             My name is Ayhan Metin, and I specialize in test automation using tools such as Selenium WebDriver and Cypress. I'm passionate about web applications, AI technologies, and agile methodologies. For collaboration or opportunities, feel free to connect with me on
-            <a href='https://www.linkedin.com/in/ayhanmet/' target='_blank' className='link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'>LinkedIn</a>.
+            <a href='https://www.linkedin.com/in/ayhanmet/' target='_blank' className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'>LinkedIn</a>.
           </p>
 
           <h5 className='mt-4 mb-3 fw-bold'>Experience and Expertise</h5>
           <p>
             With years of experience in enhancing Web UIs for e-commerce platforms, I ensure optimal performance, reliability, and user experience through meticulous manual and A/B testing. My freelance projects demonstrate my capability to improve automation processes effectively. Notably, I have recently developed a comprehensive website for
-            <a href='https://www.birsasigorta.com.tr' target='_blank' className='link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'>Birsa Insurance</a>.
+            <a href='https://www.birsasigorta.com.tr' target='_blank' className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'>Birsa Insurance</a>.
           </p>
           <p>I hold ISTQB Foundation Level and Scrum Master (PSM I) certifications and am part of the Postman API expert program. Additionally, I am proficient with tools like Testrail, Appium, Playwright, RestAssured, among others.</p>
 
@@ -26,7 +26,7 @@ export default function Home() {
           <ul className='list-unstyled'>
             {githubTesting.map((test, index) => (
               <li key={index} className='mb-2'>
-                <a href={test.githubLink} target='_blank' className='link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>- {test.title}</a>
+                <a href={test.githubLink} target='_blank' className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>- {test.title} »</a>
               </li>
             ))}
           </ul>
@@ -36,13 +36,13 @@ export default function Home() {
           <ul className='list-unstyled'>
             {writings.map((writing, index) => (
               <li key={index} className='mb-2'>
-                <a href={writing.link} target='_blank' className='link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>- {writing.title}</a>
+                <a href={writing.link} target='_blank' className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>- {writing.title}</a>
               </li>
             ))}
           </ul>
 
           <h5 className='mt-4 mb-3 fw-bold'>Beyond Test Automation</h5>
-          <p>Explore the projects I've created using React, JavaScript, Bootstrap, Tailwind, and OpenAI API. Visit the <a href='/projects' className='link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>projects page</a> for more.</p>
+          <p>Explore the projects I've created using React, JavaScript, Bootstrap, Tailwind, and OpenAI API. Visit the <a href='/projects' className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>projects page</a> for more.</p>
 
           <h5 className='mt-4 mb-3 fw-bold'>Looking Ahead</h5>
           <p>I am always eager to connect with fellow tech enthusiasts and professionals. Contact me to share insights or discuss the latest technologies.</p>

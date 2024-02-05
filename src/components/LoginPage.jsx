@@ -12,20 +12,16 @@ export default function LoginPage() {
         <div className='d-flex flex-column mb-3'>
           <div className='p-2'>
             <p
-              className='p-2 text-center fw-light font-monospace'
-              style={{ maxWidth: '600px', margin: '0 auto' }}
+              className='p-2 text-center fw-light font-monospace border-bottom'
+              style={{ maxWidth: '800px', margin: '0 auto' }}
             >
-              Explore my login test practices, designed to demonstrate automated
-              testing with tools such as Cypress, Selenium, and Playwright.
-            </p>
-            <p
-              className='p-2 text-center mt-3 border-top border-bottom'
-              style={{ maxWidth: '600px', margin: '0 auto' }}
-            >
-              Find the <span className='fw-bold'>Github</span> repositories for
+              Discover my login test practices, showcasing automated testing
+              tools. Find the corresponding{' '}
+              <span className='text-decoration-underline'>GitHub</span>{' '}
+              repositories for
               <a
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main'
-                className='text-decoration-none mx-1'
+                className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -34,7 +30,7 @@ export default function LoginPage() {
               ,
               <a
                 href=''
-                className='text-decoration-none mx-1'
+                className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -43,12 +39,13 @@ export default function LoginPage() {
               , and
               <a
                 href=''
-                className='text-decoration-none mx-1'
+                className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Playwright.
-              </a>{' '}
+                Playwright
+              </a>
+              .
             </p>
             <div className='p-2 text-center mt-3 mb-0 pb-0 fw-normal'>
               For testing the login page, use the username and password provided
