@@ -1,9 +1,8 @@
 import React from 'react';
-import BlogCypress from '../Blog/BlogCypress';
 
 export default function Blog() {
   return (
-    <div>Coming soon..</div>
+    <div className='text-center fs-3 text'>Coming soon...</div>
     // <main className='container'>
     //   <div className='p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary'>
     //     <div className='col-lg-6 px-0'>

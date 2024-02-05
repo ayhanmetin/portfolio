@@ -38,13 +38,30 @@ const TestCasesPage = () => {
                 <li>Verify button 'Log out' is displayed on the page</li>
               </ol>
             </div>
+            <div className='text-center fs-7 fw-medium text-primary font-monospace'>
+              Go to code
+            </div>
             <div className='d-flex justify-content-center mt-0 mb-2'>
               <a
-                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                 target='_blank'
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Positive_Login_Test.cy.js'
               >
-                Go to code
+                Cypress
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Selenium
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Playwright
               </a>
             </div>
           </div>
@@ -75,13 +92,30 @@ const TestCasesPage = () => {
                 </li>
               </ol>
             </div>
+            <div className='text-center fs-7 fw-medium text-primary font-monospace'>
+              Go to code
+            </div>
             <div className='d-flex justify-content-center mt-0 mb-2'>
               <a
-                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                 target='_blank'
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Username_%20Test.cy.js'
               >
-                Go to code
+                Cypress
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Selenium
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Playwright
               </a>
             </div>
           </div>
@@ -112,13 +146,30 @@ const TestCasesPage = () => {
                 </li>
               </ol>
             </div>
+            <div className='text-center fs-7 fw-medium text-primary font-monospace'>
+              Go to code
+            </div>
             <div className='d-flex justify-content-center mt-0 mb-2'>
               <a
-                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                 target='_blank'
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Password_Test.cy.js'
               >
-                Go to code
+                Cypress
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Selenium
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Playwright
               </a>
             </div>
           </div>
@@ -150,13 +201,30 @@ const TestCasesPage = () => {
                 </li>
               </ol>
             </div>
+            <div className='text-center fs-7 fw-medium text-primary font-monospace'>
+              Go to code
+            </div>
             <div className='d-flex justify-content-center mt-0 mb-2'>
               <a
-                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                 target='_blank'
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Username_Field_Validation.cy.js'
               >
-                Go to code
+                Cypress
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Selenium
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Playwright
               </a>
             </div>
           </div>
@@ -188,13 +256,30 @@ const TestCasesPage = () => {
                 </li>
               </ol>
             </div>
+            <div className='text-center fs-7 fw-medium text-primary font-monospace'>
+              Go to code
+            </div>
             <div className='d-flex justify-content-center mt-0 mb-2'>
               <a
-                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                 target='_blank'
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Password_Field_Validation.cy.js'
               >
-                Go to code
+                Cypress
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Selenium
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Playwright
               </a>
             </div>
           </div>
@@ -223,13 +308,30 @@ const TestCasesPage = () => {
                 <li>Verify error message text is 'Password is too weak!'</li>
               </ol>
             </div>
+            <div className='text-center fs-7 fw-medium text-primary font-monospace'>
+              Go to code
+            </div>
             <div className='d-flex justify-content-center mt-0 mb-2'>
               <a
-                className='mt-4 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
                 target='_blank'
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Password_Field_Validation.cy.js'
               >
-                Go to code
+                Cypress
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Selenium
+              </a>
+              <a
+                className='mt-4 ms-2 p-0 shadow-sm text_center link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                target='_blank'
+                href=''
+              >
+                Playwright
               </a>
             </div>
           </div>

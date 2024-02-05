@@ -1,6 +1,6 @@
 import React from 'react';
-import Login from '../practice/Login';
-import TestCasesPage from '../practice/TestLoginCase';
+import Login from '../practiceLogin/Login';
+import TestCasesPage from '../practiceLogin/TestLoginCase';
 
 export default function LoginPage() {
   return (
