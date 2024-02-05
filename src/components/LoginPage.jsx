@@ -18,7 +18,7 @@ export default function LoginPage() {
               Discover my login test practices, showcasing automated testing
               tools. Find the corresponding{' '}
               <span className='text-decoration-underline'>GitHub</span>{' '}
-              repositories for
+              repositories for{' '}
               <a
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main'
                 className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
