@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className='container mb-5'>
       <div className='row justify-content-center'>
+      <h3 className='pb-4 border-bottom text-center pb-2 border-bottom mb-4 text-center'>Welcome !</h3>
         <div className='col-lg-8'>
-          <h4 className='pb-2 fw-bold border-bottom text-center'>Welcome!</h4>
           <p>
             My name is Ayhan Metin, and I specialize in test automation using tools such as Selenium WebDriver and Cypress. I'm passionate about web applications, AI technologies, and agile methodologies. For collaboration or opportunities, feel free to connect with me on
             <a href='https://www.linkedin.com/in/ayhanmet/' target='_blank' className='link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'>LinkedIn</a>.
