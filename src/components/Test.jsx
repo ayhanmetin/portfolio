@@ -45,12 +45,15 @@ export default function Test() {
               , and explore the GitHub repositories and code below.
             </p>
             <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
-              <button
-                type='button'
+              <a
+                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
+                target='_blank'
+                rel='noopener noreferrer'
                 className='btn btn-outline-warning btn-sm px-4 me-md-2'
               >
                 Cypress
-              </button>
+              </a>
+
               <button
                 type='button'
                 className='btn btn-outline-warning btn-sm px-4 me-md-2'
