@@ -12,7 +12,7 @@ export default function LoginPage() {
         <div className='d-flex flex-column mb-3'>
           <div className='p-2'>
             <p
-              className='p-2 text-center fw-light'
+              className='p-2 text-center fw-light font-monospace'
               style={{ maxWidth: '600px', margin: '0 auto' }}
             >
               Explore my login test practices, designed to demonstrate automated
