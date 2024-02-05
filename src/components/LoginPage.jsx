@@ -25,27 +25,25 @@ export default function LoginPage() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Cypress
+                Cypress,
               </a>
-              ,
               <a
                 href=''
                 className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Selenium
+                Selenium,
               </a>
-              , and
+              and
               <a
                 href=''
                 className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Playwright
+                Playwright.
               </a>
-              .
             </p>
             <div className='p-2 text-center mt-3 mb-0 pb-0 fw-normal'>
               For testing the login page, use the username and password provided
