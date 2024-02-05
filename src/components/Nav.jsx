@@ -101,16 +101,6 @@ export default function Nav() {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          isActive
-                            ? 'dropdown-item navlink-active'
-                            : 'dropdown-item'
-                        }
-                        to='practice/todolist'
-                      >
-                        To-Do List (soon)
-                      </NavLink>
                     </li>
                   </ul>
                 </div>

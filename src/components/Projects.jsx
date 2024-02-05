@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <h3 className="pb-4 mb-4 border-bottom text-center">Projects</h3>{" "}
-      <div className="row m-0 p-0 row-cols-1 row-cols-md-4 g-4">
+      <div className="row m-0 p-0 row-cols-1 row-cols-md-3 g-4">
         {projects.map((project) => (
           <div className="col" key={project.id}>
             <div className="card py-3 border border-success border-2 border-opacity-25">
