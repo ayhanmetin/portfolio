@@ -31,16 +31,16 @@ export default function Login() {
     } else {
       setSuccessMessage('Login Successful!');
       setShowSuccessMessage(true);
-      setIsLoggedIn(true); 
+      setIsLoggedIn(true);
     }
   };
 
   const handleLogout = () => {
-    setIsLoggedIn(false); 
-    setUsername(''); 
+    setIsLoggedIn(false);
+    setUsername('');
     setPassword('');
-    setSuccessMessage(''); 
-    setShowSuccessMessage(false); 
+    setSuccessMessage('');
+    setShowSuccessMessage(false);
   };
 
   return (
@@ -49,7 +49,7 @@ export default function Login() {
         <div className='col-12 col-md-6 mx-auto'>
           <div className='card shadow-sm p-3 mb-5 bg-body rounded'>
             <div className='card-body'>
-              <h1 className='h3 mb-3 fw-normal text-center'>Please sign in</h1>
+              <h1 className='h3 mb-3 fw-normal text-center'></h1>
               {showErrorMessage && (
                 <div className='alert alert-danger' role='alert'>
                   {errorMessage}
@@ -85,13 +85,19 @@ export default function Login() {
                       />
                       <label htmlFor='floatingPassword'>Password</label>
                     </div>
-                    <button className='btn btn-lg btn-primary w-100' type='submit'>
+                    <button
+                      className='btn btn-lg btn-primary w-100'
+                      type='submit'
+                    >
                       Sign in
                     </button>
                   </form>
                 </>
               ) : (
-                <button className='btn btn-lg btn-secondary w-100' onClick={handleLogout}>
+                <button
+                  className='btn btn-lg btn-secondary w-100'
+                  onClick={handleLogout}
+                >
                   Log out
                 </button>
               )}
