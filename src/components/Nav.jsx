@@ -105,19 +105,6 @@ export default function Nav() {
                   </ul>
                 </div>
               </div>
-
-              <li className='nav-item'>
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive
-                      ? 'nav-link hover-underline text-warning'
-                      : 'nav-link hover-underline text-light'
-                  }
-                  to='/projects'
-                >
-                  PROJECTS
-                </NavLink>
-              </li>
               <li className='nav-item'>
                 <NavLink
                   className={({ isActive }) =>
