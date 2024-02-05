@@ -97,7 +97,7 @@ export default function Nav() {
                         }
                         to='practice/ecommerce'
                       >
-                        E-commerce (soon)
+                        E-commerce
                       </NavLink>
                     </li>
                     <li>
