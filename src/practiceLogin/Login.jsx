@@ -44,7 +44,7 @@ export default function Login() {
   };
 
   return (
-    <div className='container py-5'>
+    <div className='container py-5 pt-0'>
       <div className='row'>
         <div className='col-12 col-md-6 mx-auto'>
           <div className='card shadow-sm p-3 mb-5 bg-body rounded'>

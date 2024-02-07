@@ -9,43 +9,41 @@ export default function Ecommerce() {
         <div className='text-center fs-3 text'>Coming soon...</div>
       </h3>
       <div className='container'>
-        <div className='d-flex flex-column mb-3'>
-          <div className='p-2'>
-            <p
-              className='p-2 text-center fw-light font-monospace border-bottom'
-              style={{ maxWidth: '800px', margin: '0 auto' }}
+        <div className='text-center mt-3'>
+          <p className='mx-auto' style={{ maxWidth: '800px' }}>
+            Showcasing automated testing tools with corresponding GitHub
+            repositories for:
+          </p>
+          <p>
+            <a
+              href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main'
+              className='btn btn-link link-warning text-body-emphasis link-offset-3 fw-semibold'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              Discover my e-commerce website test practices, showcasing
-              automated testing tools. Find the corresponding{' '}
-              <span className='text-decoration-underline'>GitHub</span>{' '}
-              repositories for{' '}
-              <a
-                href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main'
-                className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Cypress,
-              </a>
-              <a
-                href=''
-                className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Selenium,
-              </a>
-              and
-              <a
-                href=''
-                className='mx-1 link-underline-primary underline-opacity-25 link-underline-opacity-100-hover'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Playwright.
-              </a>
-            </p>
-          </div>
+              Cypress
+            </a>
+            <a
+              href='#'
+              className='btn btn-link link-warning text-body-emphasis link-offset-3 fw-semibold'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {' '}
+              {/* Update your link here */}
+              Selenium
+            </a>
+            <a
+              href='#'
+              className='btn btn-link link-warning text-body-emphasis link-offset-3 fw-semibold'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {' '}
+              {/* Update your link here */}
+              Playwright
+            </a>
+          </p>
         </div>
       </div>
       <div>

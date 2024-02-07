@@ -3,12 +3,12 @@ import React from 'react';
 export default function Footer() {
   return (
     <>
-      <footer className='p-0 m-0'>
-        <ul className='nav justify-content-center border-top pb-0 mb-0'>
-          <li className='nav-item'>
+      <footer className='p-0 m-0 border-top'>
+        <ul className='nav justify-content-center mt-4 pb-0 mb-0'>
+          <li className='nav-item mb-2'>
             <a
               href='mailto:ayhanmetinde@gmail.com'
-              className='nav-link px-2 text-body-secondary'
+              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
             >
               E-mail
             </a>
@@ -17,7 +17,7 @@ export default function Footer() {
             <a
               target='_blank'
               href='https://www.linkedin.com/in/ayhanmet/'
-              className='nav-link px-2 text-body-secondary'
+              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
             >
               Linkedin
             </a>
@@ -26,7 +26,7 @@ export default function Footer() {
             <a
               target='_blank'
               href='https://github.com/ayhanmetin'
-              className='nav-link px-2 text-body-secondary'
+              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
             >
               Github
             </a>
@@ -35,15 +35,13 @@ export default function Footer() {
             <a
               target='_blank'
               href='https://instagram.com/ayhanmett'
-              className='nav-link px-2 text-body-secondary'
+              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
             >
               Instagram
             </a>
           </li>
         </ul>
-        <p className='text-center text-body-secondary border-'>
-          © 2024 Ayhan Metin
-        </p>
+        <p className='text-center border-'>© 2024 Ayhan Metin</p>
       </footer>
     </>
   );
