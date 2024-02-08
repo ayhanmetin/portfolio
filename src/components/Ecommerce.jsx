@@ -4,11 +4,11 @@ import TestCaseECommerce from '../practiceEcommerce/TestCaseECommerce';
 export default function Ecommerce() {
   return (
     <>
-      <h3 className='pb-4 mb-4 border-bottom text-center'>
+      <h3 className='container mb-5 pb-5 bg-light-subtle rounded-4 pt-4'>
         E-commerce Website Exercises
         <div className='text-center fs-3 text'>Coming soon...</div>
       </h3>
-      {/* <div className='container'>
+      <div className='container'>
         <div className='text-center mt-3'>
           <p className='mx-auto' style={{ maxWidth: '800px' }}>
             Showcasing automated testing tools with corresponding GitHub
@@ -48,7 +48,7 @@ export default function Ecommerce() {
       </div>
       <div>
         <TestCaseECommerce />
-      </div> */}
+      </div>
     </>
   );
 }

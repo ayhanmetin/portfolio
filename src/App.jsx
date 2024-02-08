@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Blog from './components/Blog';
 import LoginPage from './components/LoginPage';
 import Ecommerce from './components/Ecommerce';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path='practice/ecommerce' element={<Ecommerce />} />
           <Route path='practice/loginpage' element={<LoginPage />} />
           <Route path='/blog' element={<Blog />} />
+
+          <Route path='*' element={<PageNotFound />} />
         </Routes>
       </div>
       <Footer />

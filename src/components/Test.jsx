@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export default function Test() {
   return (
     <>
-      <div className='container mb-5 bg-light-subtle rounded-4 pt-4'>
+      <div className='container mb-5 pb-5 bg-light-subtle rounded-4 pt-4'>
         <h3 className='pb-4 mb-4 border-bottom text-center '>Practice</h3>{' '}
         <div className='container col-xxl-8 px-4 py-5 pt-4'>
           {/* Login Page Section */}
