@@ -18,7 +18,7 @@ export default function LoginPage() {
               </p>
               <a
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main'
-                className='btn btn-outline-dark m-1'
+                className='btn btn-outline-primary m-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -26,7 +26,7 @@ export default function LoginPage() {
               </a>
               <a
                 href='#'
-                className='btn btn-outline-dark m-1'
+                className='btn btn-outline-primary m-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -36,7 +36,7 @@ export default function LoginPage() {
               </a>
               <a
                 href='#'
-                className='btn btn-outline-dark m-1'
+                className='btn btn-outline-primary m-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
