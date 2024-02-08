@@ -26,7 +26,7 @@ export default function () {
               onMouseOut={e => (e.currentTarget.style.transform = 'scale(1)')}
             />
           </div>
-          <div className='pe-5'>
+          <div>
             <h1 className='mb-0 mt-4 fs-3 fw-normal '>Ayhan </h1>
             <h1 className='ms-2 fs-3 fw-normal'>Metin</h1>
           </div>

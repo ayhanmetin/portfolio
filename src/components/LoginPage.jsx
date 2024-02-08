@@ -10,7 +10,7 @@ export default function LoginPage() {
           Login Page Exercises
         </h3>
         <div className='d-flex flex-column mb-3'>
-          <div className='text-center p-5 mt-3'>
+          <div className='text-center p-5'>
             <p>
               <p className='mx-auto fs-5 text' style={{ maxWidth: '800px' }}>
                 Showcasing automated testing tools with corresponding GitHub
@@ -18,7 +18,7 @@ export default function LoginPage() {
               </p>
               <a
                 href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main'
-                className='btn btn-outline-primary btn-sm m-1'
+                className='btn btn-outline-dark m-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -26,7 +26,7 @@ export default function LoginPage() {
               </a>
               <a
                 href='#'
-                className='btn btn-outline-primary btn-sm m-1'
+                className='btn btn-outline-dark m-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -36,7 +36,7 @@ export default function LoginPage() {
               </a>
               <a
                 href='#'
-                className='btn btn-outline-primary btn-sm m-1'
+                className='btn btn-outline-dark m-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
