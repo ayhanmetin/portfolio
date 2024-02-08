@@ -8,7 +8,7 @@ export default function Ecommerce() {
         E-commerce Website Exercises
         <div className='text-center fs-3 text'>Coming soon...</div>
       </h3>
-      <div className='container'>
+      {/* <div className='container'>
         <div className='text-center mt-3'>
           <p className='mx-auto' style={{ maxWidth: '800px' }}>
             Showcasing automated testing tools with corresponding GitHub
@@ -48,7 +48,7 @@ export default function Ecommerce() {
       </div>
       <div>
         <TestCaseECommerce />
-      </div>
+      </div> */}
     </>
   );
 }
