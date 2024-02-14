@@ -31,24 +31,6 @@ export default function Footer() {
               Github
             </a>
           </li>
-          <li className='nav-item'>
-            <a
-              target='_blank'
-              href='https://medium.com/@test-mastery'
-              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
-            >
-              Medium
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a
-              target='_blank'
-              href='https://instagram.com/ayhanmett'
-              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
-            >
-              Instagram
-            </a>
-          </li>
         </ul>
         <p className='text-center border-'>© 2024 Ayhan Metin</p>
       </footer>

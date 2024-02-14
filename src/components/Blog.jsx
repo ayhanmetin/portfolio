@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Blog() {
   return (
-    <div className='container col-xxl-8 px-4 py-5 bg-light-subtle rounded-4 pt-4'></div>
+    <div className='container col-xxl-8 px-4 py-5 pt-4'></div>
     // <main className='container'>
     //   <div className='p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary'>
     //     <div className='col-lg-6 px-0'>
