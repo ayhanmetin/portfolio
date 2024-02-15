@@ -45,9 +45,20 @@ export default function Login() {
 
   return (
     <div className='container pt-4 pt-0'>
+      <div className='col d-flex justify-content-center'>
+        <div className='justify-content-center'>
+          <h3 className='fw-bold mb-3 fs-4'>Login details below:</h3>
+          <p className='mb-2'>
+            <strong>Username:</strong> ayhan89
+          </p>
+          <p>
+            <strong>Password:</strong> ayhan123
+          </p>
+        </div>
+      </div>
       <div className='row'>
         <div className='col-8 col-md-6 mx-auto'>
-          <div className='card shadow-sm p-1 mb-5 bg-body rounded'>
+          <div className='card shadow-sm p-1 mb-1 bg-body rounded'>
             <div className='card-body'>
               <h1 className='h3 mb-3 fw-normal text-center'></h1>
               {showErrorMessage && (
@@ -101,17 +112,6 @@ export default function Login() {
                   Log out
                 </button>
               )}
-            </div>
-          </div>
-          <div className='col d-flex justify-content-center'>
-            <div className='justify-content-center'>
-              <h3 className='fw-bold mb-3 fs-4'>Login details below:</h3>
-              <p className='mb-2'>
-                <strong>Username:</strong> ayhan89
-              </p>
-              <p>
-                <strong>Password:</strong> ayhan123
-              </p>
             </div>
           </div>
         </div>

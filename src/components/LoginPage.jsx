@@ -10,10 +10,12 @@ export default function LoginPage() {
         <h3 className='pb-4 mb-4 p-4 border-bottom text-center display-6 fw-bold text-body-emphasis'>
           Login Page Exercises
         </h3>
-
+        <div className='p-0 mt-0 text-center'>
+          <Login />
+        </div>
         <div className='d-flex flex-column align-items-center mt-5'>
           <div
-            className='text-center p-2'
+            className='text-center p-3  border-bottom'
             style={{ maxWidth: '700px', width: '100%' }}
           >
             <p className='mb-3' style={{ fontSize: '1.1rem' }}>
@@ -47,9 +49,6 @@ export default function LoginPage() {
               </a>
             </div>
           </div>
-        </div>
-        <div className='p-0 mt-0 text-center'>
-          <Login />
         </div>
         <div className='mt-0 pt-0 '>
           <TestGroup />

@@ -26,7 +26,7 @@ export default function Footer() {
             <a
               target='_blank'
               href='https://github.com/ayhanmetin'
-              className=' px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
+              className='px-2 link-body-emphasis link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover'
             >
               Github
             </a>

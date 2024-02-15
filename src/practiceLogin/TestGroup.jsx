@@ -58,7 +58,7 @@ export default function TestGroup() {
                 <Link
                   key={index}
                   target='_blank'
-                  className='list-group border btn btn-outline-primary text-center flex-grow-1 overflow-auto list-group-item-action'
+                  className='border btn btn-outline-primary text-center flex-grow-1 overflow-auto list-group-item-action px-2'
                   to={link.gitHubUrl}
                 >
                   {link.name}
