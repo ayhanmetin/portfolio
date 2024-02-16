@@ -17,8 +17,8 @@ const testCasesFile = [
         gitHubUrl:
           'https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Positive_Login_Test.cy.js',
       },
-      { name: 'Selenium', url: '' },
-      { name: 'Playwright', url: '' },
+      // { name: 'Selenium', url: '' },
+      // { name: 'Playwright', url: '' },
     ],
   },
   {
@@ -39,8 +39,8 @@ const testCasesFile = [
         gitHubUrl:
           'https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Username_%20Test.cy.js',
       },
-      { name: 'Selenium', url: '' },
-      { name: 'Playwright', url: '' },
+      // { name: 'Selenium', url: '' },
+      // { name: 'Playwright', url: '' },
     ],
   },
   {
@@ -61,8 +61,8 @@ const testCasesFile = [
         gitHubUrl:
           'https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Negative_Password_Test.cy.js',
       },
-      { name: 'Selenium', url: '' },
-      { name: 'Playwright', url: '' },
+      // { name: 'Selenium', url: '' },
+      // { name: 'Playwright', url: '' },
     ],
   },
   {
@@ -83,8 +83,8 @@ const testCasesFile = [
         gitHubUrl:
           'https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Username_Field_Validation.cy.js',
       },
-      { name: 'Selenium', url: '' },
-      { name: 'Playwright', url: '' },
+      // { name: 'Selenium', url: '' },
+      // { name: 'Playwright', url: '' },
     ],
   },
   {
@@ -105,8 +105,8 @@ const testCasesFile = [
         gitHubUrl:
           'https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Password_Field_Validation.cy.js',
       },
-      { name: 'Selenium', url: '' },
-      { name: 'Playwright', url: '' },
+      // { name: 'Selenium', url: '' },
+      // { name: 'Playwright', url: '' },
     ],
   },
   {
@@ -127,8 +127,8 @@ const testCasesFile = [
         gitHubUrl:
           'https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/blob/main/cypress/e2e/Test_Login_Page/Password_Strength_Test.cy.js',
       },
-      { name: 'Selenium', url: '' },
-      { name: 'Playwright', url: '' },
+      // { name: 'Selenium', url: '' },
+      // { name: 'Playwright', url: '' },
     ],
   },
 ];
