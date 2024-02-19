@@ -16,7 +16,7 @@ export default function TestGroup() {
   return (
     <div className='container justify-content-center py-5'>
       <div className='row d-flex justify-content-center g-4'>
-        <div className='col-lg-4 col-md-4'>
+        <div className='col-lg-3 col-md-4'>
           <div className='p-3 shadow' style={boxStyle}>
             <h2 className='text-center fs-3 mb-4'>Test Cases</h2>
             <div className='list-group gap-1'>
@@ -50,7 +50,7 @@ export default function TestGroup() {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <li>» {link.name} Github code</li>
+                      <li>» {link.name} Github Code</li>
                     </a>
                   </div>
                 ))}
