@@ -42,9 +42,7 @@ export default function TestGroup() {
                   {step}
                 </li>
               ))}
-              <div
-                className='mt-2 p-1 pt-2'
-              >
+              <div className='mt-2 p-1 pt-2'>
                 {selectedTestCase.links.map((link, index) => (
                   <div key={index} className='mb-1 ms-1'>
                     <a
@@ -52,7 +50,7 @@ export default function TestGroup() {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      » Github code
+                      <li>» {link.name} Github code</li>
                     </a>
                   </div>
                 ))}
