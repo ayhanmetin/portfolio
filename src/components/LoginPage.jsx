@@ -50,7 +50,7 @@ export default function LoginPage() {
             </div>
           </div>
         </div>
-        <div className='mt-0 pt-0 '>
+        <div className='mt-0 justify-content-center pt-0 '>
           <TestGroup />
         </div>
       </div>

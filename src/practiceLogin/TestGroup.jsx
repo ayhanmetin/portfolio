@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import testCasesFile from './testCasesFile';
-import { Link, NavLink } from 'react-router-dom';
+import testCasesFile from './testCasesFile'; // Assuming this import path is correct
 
 export default function TestGroup() {
   const [selectedTestCase, setSelectedTestCase] = useState(testCasesFile[0]);
@@ -15,8 +14,8 @@ export default function TestGroup() {
   };
 
   return (
-    <div className='container py-5'>
-      <div className='row g-4'>
+    <div className='container justify-content-center py-5'>
+      <div className='row d-flex justify-content-center g-4'>
         <div className='col-lg-4 col-md-4'>
           <div className='p-3 shadow' style={boxStyle}>
             <h2 className='text-center fs-3 mb-4'>Test Cases</h2>
@@ -34,7 +33,7 @@ export default function TestGroup() {
           </div>
         </div>
 
-        <div className='col-lg-5 col-md-8'>
+        <div className='col-lg-6 col-md-8'>
           <div className='p-3 shadow' style={boxStyle}>
             <h3 className='text-center fs-4 mb-4'>{selectedTestCase.title}</h3>
             <ol className='list-group list-group-numbered'>
@@ -43,28 +42,22 @@ export default function TestGroup() {
                   {step}
                 </li>
               ))}
+              <div
+                className='mt-2 p-1 pt-2'
+              >
+                {selectedTestCase.links.map((link, index) => (
+                  <div key={index} className='mb-1 ms-1'>
+                    <a
+                      href={link.gitHubUrl}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      » Github code
+                    </a>
+                  </div>
+                ))}
+              </div>
             </ol>
-          </div>
-        </div>
-
-        <div className='col-lg-3 col-md-4'>
-          <div className='p-3 shadow' style={boxStyle}>
-            <h3 className='text-center fs-4 mb-4'>GitHub Repositories</h3>
-            <div className='d-flex flex-column gap-2'>
-              {selectedTestCase.links.map((link, index) => (
-                <Link
-                  key={index}
-                  target='_blank'
-                  className='btn btn-outline-primary text-center px-2'
-                  to={link.gitHubUrl}
-                >
-                  {link.name}
-                  <span className='d-block small'>
-                    {selectedTestCase.title}
-                  </span>
-                </Link>
-              ))}
-            </div>
           </div>
         </div>
       </div>
