@@ -13,14 +13,16 @@ export default function LoginPage() {
         <div className='p-0 mt-0 text-center'>
           <Login />
         </div>
+        <div className='mt-0 justify-content-center pt-0 '>
+          <TestGroup />
+        </div>
         <div className='d-flex flex-column align-items-center mt-5'>
           <div
-            className='text-center p-3  border-bottom'
+            className='text-center p-3'
             style={{ maxWidth: '700px', width: '100%' }}
           >
-            <p className='mb-3' style={{ fontSize: '1.1rem' }}>
-              Discover GitHub repos for enhancing login tests and testing
-              strategies.
+            <p className='mb-3' style={{ fontSize: '1.5rem' }}>
+              All GitHub repositories containing login test examples:{' '}
             </p>
             <div className='d-flex justify-content-center pb-0 flex-wrap p-0 gap-3 mb-0'>
               <a
@@ -31,7 +33,7 @@ export default function LoginPage() {
               >
                 Cypress
               </a>
-              <a
+              {/* <a
                 href='#'
                 className='btn btn-outline-primary'
                 target='_blank'
@@ -46,12 +48,9 @@ export default function LoginPage() {
                 rel='noopener noreferrer'
               >
                 Playwright
-              </a>
+              </a> */}
             </div>
           </div>
-        </div>
-        <div className='mt-0 justify-content-center pt-0 '>
-          <TestGroup />
         </div>
       </div>
     </>

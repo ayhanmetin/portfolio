@@ -19,9 +19,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/practice' element={<Test />} />
-          <Route path='practice/ecommerce' element={<Ecommerce />} />
-          <Route path='practice/loginpage' element={<LoginPage />} />
+          <Route path='/testing' element={<Test />} />
+          <Route path='testing/ecommerce' element={<Ecommerce />} />
+          <Route path='testing/loginpage' element={<LoginPage />} />
           <Route path='/blog' element={<Blog />} />
 
           <Route path='*' element={<PageNotFound />} />

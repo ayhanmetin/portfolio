@@ -8,7 +8,9 @@ export default function Test() {
   return (
     <>
       <div className='container mb-5 pb-5 pt-4'>
-        <h3 className='pb-4 mb-4 border-bottom text-center '>Practice</h3>{' '}
+        <h3 className='pb-4 mb-4 border-bottom text-center '>
+          My Test Projects Portfolio
+        </h3>{' '}
         <div className='container col-xxl-8 px-4 py-5 pt-4'>
           {/* Login Page Section */}
           <div className='row align-items-center g-5 py-5'>
@@ -55,7 +57,7 @@ export default function Test() {
                   Cypress
                 </a>
 
-                <button
+                {/* <button
                   type='button'
                   className='btn btn-outline-warning btn-sm px-4 me-md-2'
                 >
@@ -66,7 +68,7 @@ export default function Test() {
                   className='btn btn-outline-warning btn-sm px-4 me-md-2'
                 >
                   Playwright
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -89,7 +91,7 @@ export default function Test() {
                 I developed an e-commerce page for my frontend program's final
                 project, which serves as a demo available via this{' '}
                 <a
-                  href='https://ayhando-ecommerce.vercel.app/'
+                  href='https://ayhando.vercel.app/'
                   className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
                   target='_blank'
                 >
@@ -107,7 +109,7 @@ export default function Test() {
                 >
                   Cypress
                 </button>
-                <button
+                {/* <button
                   type='button'
                   className='btn btn-outline-warning btn-sm px-4 me-md-2'
                   target='_blank'
@@ -120,7 +122,7 @@ export default function Test() {
                   target='_blank'
                 >
                   Playwright
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

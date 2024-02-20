@@ -68,9 +68,9 @@ export default function Nav() {
                             ? 'dropdown-item navlink-active'
                             : 'dropdown-item'
                         }
-                        to='/practice'
+                        to='/testing'
                       >
-                        Practice
+                        Test Projects
                       </NavLink>
                     </li>
                     <li>
@@ -83,7 +83,7 @@ export default function Nav() {
                             ? 'dropdown-item navlink-active'
                             : 'dropdown-item'
                         }
-                        to='practice/loginpage'
+                        to='testing/loginpage'
                       >
                         Login Page
                       </NavLink>
@@ -95,7 +95,7 @@ export default function Nav() {
                             ? 'dropdown-item navlink-active'
                             : 'dropdown-item'
                         }
-                        to='practice/ecommerce'
+                        to='testing/ecommerce'
                       >
                         E-commerce
                       </NavLink>
