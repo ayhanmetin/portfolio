@@ -50,59 +50,19 @@ export default function Nav() {
                   HOME
                 </NavLink>
               </li>
-              <div className='d-flex justify-content-start'>
-                <div className='btn-group custom-btn-group'>
-                  <button
-                    type='button'
-                    className='btn btn-dark dropdown-toggle custom-dropdown-toggle'
-                    data-bs-toggle='dropdown'
-                    aria-expanded='false'
-                  >
-                    TESTING
-                  </button>
-                  <ul className='dropdown-menu'>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          isActive
-                            ? 'dropdown-item navlink-active'
-                            : 'dropdown-item'
-                        }
-                        to='/testing'
-                      >
-                        Test Projects
-                      </NavLink>
-                    </li>
-                    <li>
-                      <hr className='dropdown-divider' />
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          isActive
-                            ? 'dropdown-item navlink-active'
-                            : 'dropdown-item'
-                        }
-                        to='testing/loginpage'
-                      >
-                        Login Page
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          isActive
-                            ? 'dropdown-item navlink-active'
-                            : 'dropdown-item'
-                        }
-                        to='testing/ecommerce'
-                      >
-                        E-commerce
-                      </NavLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <li className='nav-item'>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? 'nav-link hover-underline text-warning'
+                      : 'nav-link hover-underline text-light'
+                  }
+                  to='/testing'
+                >
+                  TESTING
+                </NavLink>
+              </li>
+
               <li className='nav-item'>
                 <NavLink
                   className={({ isActive }) =>

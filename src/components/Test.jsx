@@ -15,7 +15,7 @@ export default function Test() {
           {/* Login Page Section */}
           <div className='row align-items-center g-5 py-5'>
             <div className='col-10 col-sm-8 col-lg-6'>
-              <Link to='/practice/loginpage' target='_blank'>
+              <Link to='/testing/loginpage' target='_blank'>
                 <img
                   src={loginpage}
                   style={{ width: '350px', height: '350px' }}
@@ -27,7 +27,7 @@ export default function Test() {
             </div>
             <div className='col-lg-6'>
               <Link
-                to='/practice/loginpage'
+                to='/testing/loginpage'
                 className='text-decoration-none'
                 target='_blank'
               >
@@ -75,18 +75,26 @@ export default function Test() {
           {/* E-commerce Section */}
           <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
             <div className='col-10 col-sm-8 col-lg-6'>
-              <img
-                src={ecommerce}
-                style={{ width: '350px', height: '350px' }}
-                className='d-block mx-lg-auto img-fluid img-thumbnail rounded'
-                alt='E-commerce'
-                loading='lazy'
-              />
+              <Link to='/testing/ecommerce' target='_blank'>
+                <img
+                  src={ecommerce}
+                  style={{ width: '350px', height: '350px' }}
+                  className='d-block mx-lg-auto img-fluid img-thumbnail rounded'
+                  alt='E-commerce'
+                  loading='lazy'
+                />
+              </Link>
             </div>
             <div className='col-lg-6'>
-              <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-                E-Commerce
-              </h1>
+              <Link
+                className='text-decoration-none'
+                to='/testing/ecommerce'
+                target='_blank'
+              >
+                <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
+                  E-Commerce
+                </h1>
+              </Link>
               <p className='lead'>
                 I developed an e-commerce page for my frontend program's final
                 project, which serves as a demo available via this{' '}
@@ -98,8 +106,12 @@ export default function Test() {
                   link
                 </a>
                 . Additionally, I created test cases and automated them using
-                popular tools. You can access the page and explore the GitHub
-                repositories and code below.
+                popular test tools{' '}
+                <a target='_blank' href='/testing/ecommerce'>
+                  here
+                </a>
+                . You can access the page and explore the GitHub repositories
+                and code below.
               </p>
               <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
                 <button
