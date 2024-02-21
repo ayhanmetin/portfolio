@@ -100,8 +100,6 @@ export default function Nav() {
                         E-commerce
                       </NavLink>
                     </li>
-                    <li>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -112,9 +110,9 @@ export default function Nav() {
                       ? 'nav-link hover-underline text-warning'
                       : 'nav-link hover-underline text-light'
                   }
-                  to='/blog'
+                  to='/projects'
                 >
-                  BLOG
+                  PROJECTS
                 </NavLink>
               </li>
             </ul>

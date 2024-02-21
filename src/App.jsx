@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Projects from './components/Projects';
-import Blog from './components/Blog';
 import LoginPage from './components/LoginPage';
 import PageNotFound from './components/PageNotFound';
 import EcoTestPage from './practiceEcommerce/ecoTestPage';
@@ -22,7 +21,6 @@ function App() {
           <Route path='/testing' element={<Test />} />
           <Route path='testing/ecommerce' element={<EcoTestPage />} />
           <Route path='testing/loginpage' element={<LoginPage />} />
-          <Route path='/blog' element={<Blog />} />
 
           <Route path='*' element={<PageNotFound />} />
         </Routes>

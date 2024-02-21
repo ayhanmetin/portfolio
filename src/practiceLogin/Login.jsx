@@ -47,7 +47,7 @@ export default function Login() {
     <div className='container pt-4 pt-0'>
       <div className='col d-flex justify-content-center'>
         <div className='justify-content-center'>
-          <h3 className='fw-bold mb-3 fs-4'>Login details below:</h3>
+          <h3 className='fw-bold mb-3 fs-4 mt-5'>Login details below:</h3>
           <p className='mb-2'>
             <strong>Username:</strong> ayhan89
           </p>

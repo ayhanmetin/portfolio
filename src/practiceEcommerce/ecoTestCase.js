@@ -1,7 +1,7 @@
 const testCasesFile = [
   {
     id: 1,
-    title: 'Login Test with Dynamic Data',
+    title: 'Login Test with Faker.js',
     steps: [
       'Open page https://ayhando.vercel.app/login',
       'Type a dynamically generated username into Username field',
@@ -9,7 +9,7 @@ const testCasesFile = [
       'Push Submit button',
       'Verify URL includes "/" to confirm redirection to the main page',
       'Verify button "Logout (Germany2024)" is displayed and visible on the page',
-      'Verify the presence of the Add button',
+      'Verify the presence of the Add button on the product',
     ],
     links: [
       {
