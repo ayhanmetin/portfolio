@@ -40,7 +40,7 @@ export default function Test() {
                 testing using renowned tools. Access the page via this{' '}
                 <Link
                   target='_blank'
-                  to='/practice/loginpage'
+                  to='/testing/loginpage'
                   className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
                 >
                   link
