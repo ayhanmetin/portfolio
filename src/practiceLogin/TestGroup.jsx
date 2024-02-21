@@ -17,7 +17,7 @@ export default function TestGroup() {
     <div className='container justify-content-center py-5'>
       <div className='row d-flex justify-content-center g-3'>
         <div className='col-lg-3 col-md-4'>
-          <div className='px-2 shadow' style={boxStyle}>
+          <div className='px-1 pt-3 shadow' style={boxStyle}>
             <h2 className='text-center fs-3 mb-4'>Test Cases</h2>
             <div className='list-group gap-1'>
               {testCasesFile.map(testCase => (
@@ -34,11 +34,11 @@ export default function TestGroup() {
         </div>
 
         <div className='col-lg-6 col-md-8'>
-          <div className='p-3 shadow' style={boxStyle}>
+          <div className='p-3 px-1 shadow' style={boxStyle}>
             <h3 className='text-center fs-4 mb-4'>{selectedTestCase.title}</h3>
             <ol className='list-group list-group-numbered'>
               {selectedTestCase.steps.map((step, index) => (
-                <li key={index} className='list-group-item text-start'>
+                <li key={index} className='list-group-item text-start rounded'>
                   {step}
                 </li>
               ))}
@@ -50,7 +50,7 @@ export default function TestGroup() {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <li>» {link.name} Github Code</li>
+                      <li>» {link.name} test codes</li>
                     </a>
                   </div>
                 ))}
