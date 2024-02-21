@@ -8,12 +8,12 @@ export default function LoginPage() {
     <>
       <div className=''>
         <h3 className='pb-4 mb-4 p-4 border-bottom text-center display-6 fw-bold text-body-emphasis'>
-          Login Page Exercises
+          Login Page Tests
         </h3>
         <div className='p-0 mt-0 text-center'>
           <Login />
         </div>
-        <div className='mt-0 justify-content-center pt-0 '>
+        <div className='mt-5 justify-content-center pt-0 '>
           <TestGroup />
         </div>
         <div className='d-flex flex-column align-items-center mt-5'>
