@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import LoginPage from './components/LoginPage';
 import PageNotFound from './components/PageNotFound';
-import EcoTestPage from './practiceEcommerce/ecoTestPage.jsx';
+import Ecommerce from './practiceEcommerce/Ecommerce';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/testing' element={<Test />} />
-          <Route path='testing/ecommerce' element={<EcoTestPage />} />
+          <Route path='testing/ecommerce' element={<Ecommerce />} />
           <Route path='testing/loginpage' element={<LoginPage />} />
 
           <Route path='*' element={<PageNotFound />} />

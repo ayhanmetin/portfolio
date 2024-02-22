@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import ecoTestCase from './ecoTestCase'; 
+import ecoTestCase from './ecoTestCase';
 import ecommerceGithub from '../images/e-commerce-github.png';
+import React from 'react';
 
-function EcoTestPage() {
+export default function Ecommerce() {
   const [selectedTestCase, setSelectedTestCase] = useState(ecoTestCase[0]);
 
   const handleClick = testCase => {
-    setSelectedTestCase(testCase); 
+    setSelectedTestCase(testCase);
   };
 
   const boxStyle = {
@@ -90,7 +91,6 @@ function EcoTestPage() {
               >
                 Cypress
               </a>
-              
             </div>
           </div>
         </div>
@@ -98,5 +98,3 @@ function EcoTestPage() {
     </div>
   );
 }
-
-export default EcoTestPage; 
