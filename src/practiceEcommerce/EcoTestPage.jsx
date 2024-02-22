@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ecoTestCase from './ecoTestCase'; // Importing test cases from ecoTestCase
+import ecoTestCase from './ecoTestCase'; 
 import ecommerceGithub from '../images/e-commerce-github.png';
 
 function EcoTestPage() {
@@ -7,7 +7,7 @@ function EcoTestPage() {
   const [selectedTestCase, setSelectedTestCase] = useState(ecoTestCase[0]); // Initialize with the first test case from ecoTestCase
 
   const handleClick = testCase => {
-    setSelectedTestCase(testCase); // Update the selected test case on click
+    setSelectedTestCase(testCase); 
   };
 
   const boxStyle = {
@@ -91,22 +91,7 @@ function EcoTestPage() {
               >
                 Cypress
               </a>
-              {/* <a
-                href='#'
-                className='btn btn-outline-primary'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Selenium
-              </a>
-              <a
-                href='#'
-                className='btn btn-outline-primary'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Playwright
-              </a> */}
+              
             </div>
           </div>
         </div>
@@ -115,4 +100,4 @@ function EcoTestPage() {
   );
 }
 
-export default EcoTestPage; // Corrected export statement to export the component itself
+export default EcoTestPage; 
