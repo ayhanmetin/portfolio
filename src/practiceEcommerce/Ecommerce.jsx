@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ecoTestCase from './ecoTestCase';
 import ecommerceGithub from '../images/e-commerce-github.png';
-import React from 'react';
 
 export default function Ecommerce() {
   const [selectedTestCase, setSelectedTestCase] = useState(ecoTestCase[0]);
