@@ -50,16 +50,8 @@ export default function Home() {
               href='https://www.scrum.org/user/1181897'
             >
               Scrum Master (PSM I)
-            </a>{' '}
-            , and{' '}
-            <a
-              target='_blank'
-              className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'
-              href={testRail}
-            >
-              Testrail.
-            </a>{' '}
-            I complete the{' '}
+            </a>
+            . I complete the{' '}
             <a
               target='_blank'
               className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'
@@ -68,7 +60,7 @@ export default function Home() {
               Postman API expert program
             </a>
             . Additionally, I am proficient with variety of testing tools such
-            as Appium, Playwright, among others.
+            as Appium, Testrail, Playwright, and among others.
           </p>
           <h5 className='mt-4 mb-3 fw-bold'>Automation Practice</h5>
           <p>
