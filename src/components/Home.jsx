@@ -1,6 +1,5 @@
 import React from 'react';
 import writings from '../data/writings';
-import githubTesting from '../data/githubTesting';
 import testRail from '../images/Testrail.pdf';
 export default function Home() {
   return (
