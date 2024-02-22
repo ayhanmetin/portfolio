@@ -1,6 +1,5 @@
 import React from 'react';
 import writings from '../data/writings';
-import testRail from '../images/Testrail.pdf';
 export default function Home() {
   return (
     <div className='container mb-5 pb-5pt-4'>
