@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import LoginPage from './components/LoginPage';
 import PageNotFound from './components/PageNotFound';
-import EcoTestPage from './practiceEcommerce/ecoTestPage';
+import EcoTestPage from './practiceEcommerce/ecoTestPage.jsx';
 
 function App() {
   return (

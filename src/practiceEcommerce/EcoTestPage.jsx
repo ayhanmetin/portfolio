@@ -3,8 +3,7 @@ import ecoTestCase from './ecoTestCase';
 import ecommerceGithub from '../images/e-commerce-github.png';
 
 function EcoTestPage() {
-  // Component name corrected to follow naming conventions
-  const [selectedTestCase, setSelectedTestCase] = useState(ecoTestCase[0]); // Initialize with the first test case from ecoTestCase
+  const [selectedTestCase, setSelectedTestCase] = useState(ecoTestCase[0]);
 
   const handleClick = testCase => {
     setSelectedTestCase(testCase); 
