@@ -1,5 +1,12 @@
 const writings = [
   {
+    title: 'What is Functional Testing in Software Testing? »',
+    author: 'Ayhan Metin',
+    date: '',
+    content: '',
+    link: 'https://medium.com/@test-mastery/what-is-functional-testing-in-software-testing-c598da0dbc3b',
+  },
+  {
     title: 'Exploring and Understanding Large Language Models (LLMs) »',
     author: 'Ayhan Metin',
     date: '01 Jan 2024',
