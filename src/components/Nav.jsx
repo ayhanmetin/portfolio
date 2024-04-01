@@ -8,8 +8,37 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 export default function Nav() {
   return (
     <>
+      <div className='d-flex justify-content-end'>
+        <nav className='nav'>
+          <a
+            href='mailto:ayhanmetinde@gmail.com'
+            className='nav-link px-3'
+            aria-label='E-mail'
+          >
+            <i className='fas fa-envelope text-secondary-emphasis'></i>
+          </a>
+          <a
+            href='https://www.linkedin.com/in/ayhanmet/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='nav-link px-3'
+            aria-label='LinkedIn'
+          >
+            <i className='fab fa-linkedin text-secondary-emphasis'></i>
+          </a>
+          <a
+            href='https://github.com/ayhanmetin'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='nav-link px-3'
+            aria-label='GitHub'
+          >
+            <i className='fab fa-github text-secondary-emphasis'></i>
+          </a>
+        </nav>
+      </div>
+
       <div className='d-flex justify-content-center align-items-center gap-5'>
-        <div></div>
         <div className='mb-4 mt-3'>
           <Profile />
         </div>
@@ -45,21 +74,9 @@ export default function Nav() {
                       ? 'nav-link hover-underline text-warning'
                       : 'nav-link hover-underline text-light'
                   }
-                  to='/'
+                  to='/projects'
                 >
-                  HOME
-                </NavLink>
-              </li>
-              <li className='nav-item'>
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive
-                      ? 'nav-link hover-underline text-warning'
-                      : 'nav-link hover-underline text-light'
-                  }
-                  to='/testing'
-                >
-                  TESTING
+                  Projects
                 </NavLink>
               </li>
 
@@ -70,9 +87,22 @@ export default function Nav() {
                       ? 'nav-link hover-underline text-warning'
                       : 'nav-link hover-underline text-light'
                   }
-                  to='/projects'
+                  to='/testing'
                 >
-                  PROJECTS
+                  Testing
+                </NavLink>
+              </li>
+
+              <li className='nav-item'>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? 'nav-link hover-underline text-warning'
+                      : 'nav-link hover-underline text-light'
+                  }
+                  to='/'
+                >
+                  About Me
                 </NavLink>
               </li>
             </ul>

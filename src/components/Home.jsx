@@ -3,7 +3,7 @@ import writings from '../data/writings';
 export default function Home() {
   return (
     <div className='container mb-5 pb-5pt-4'>
-      <h3 className='pb-4 border-bottom pb-2 mb-4 text-center'>Welcome !</h3>
+      <h3 className='pb-4 border-bottom pb-2 mb-4 text-center'>About me</h3>
       <div className='row justify-content-center'>
         <div className='col-lg-8'>
           <h5 className='mt-4 mb-3 fw-bold'>Experience and Expertise</h5>
@@ -16,21 +16,6 @@ export default function Home() {
               className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'
             >
               LinkedIn
-            </a>
-            .
-          </p>
-
-          <p>
-            I bring years of experience in online sales, excelling in SEO and
-            creating compelling tech product content. I've improved user
-            experiences on e-commerce platforms through detailed A/B testing. I
-            have recently developed a comprehensive website for
-            <a
-              href='https://www.birsasigorta.com.tr'
-              target='_blank'
-              className='link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-1'
-            >
-              Birsa Insurance
             </a>
             .
           </p>
@@ -59,7 +44,7 @@ export default function Home() {
               Postman API expert program
             </a>
             . Additionally, I am proficient with variety of testing tools such
-            as Appium, Testrail, Playwright, and among others.
+            as Cypress, Selenium, Playwright, and among others.
           </p>
           <h5 className='mt-4 mb-3 fw-bold'>Automation Practice</h5>
           <p>

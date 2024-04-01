@@ -4,11 +4,11 @@
   transition: border-bottom 0.3s;
 }
 
-/* Override Bootstrap Dropdown Active Link Style */
+
 .dropdown-menu .dropdown-item.active,
 .dropdown-menu .dropdown-item:active {
-  background-color: #e68a00; /* Custom active background color */
-  color: white; /* Custom active text color */
+  background-color: #e68a00; 
+  color: white; 
 }
 
 .custom-btn-group {
@@ -18,9 +18,9 @@
 
 .custom-dropdown-toggle {
   margin: 0;
-  padding: 0; /* Adjust padding for button size */
+  padding: 0; 
 }
 
 .dropdown-menu {
-  margin-top: 0; /* Remove space between button and dropdown */
+  margin-top: 0; 
 }
