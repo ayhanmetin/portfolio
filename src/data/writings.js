@@ -35,13 +35,6 @@ const writings = [
     link: 'https://medium.com/@test-mastery/improving-your-cypress-testing-workflow-with-fixtures-examples-with-json-data-dcf28587b233',
   },
   {
-    title: 'Jira and Scrum: The Dynamic Duo for Agile Project Management »',
-    author: 'Ayhan Metin',
-    date: '16 Mart 2023',
-    content: '#Agile Development, #Jira, #Scrum',
-    link: 'https://medium.com/p/11b8b4ef265e',
-  },
-  {
     title: 'Understanding the Fetch API’s Response Object »',
     author: 'Ayhan Metin',
     date: '28 Aug 2023',

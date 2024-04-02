@@ -1,6 +1,6 @@
 import React from 'react';
 import writings from '../data/writings';
-import "./home.css"
+import './home.css';
 export default function Home() {
   return (
     <div className='container body mb-5 pb-5 pt-4'>
@@ -8,14 +8,23 @@ export default function Home() {
         <div className='col-lg-9'>
           <h5 className='mt-2 mb-3 fw-bold title'>Experience and Expertise</h5>
           <p className='paragraph'>
-            I'm passionate about web applications, AI technologies, and agile
-            methodologies. Feel free to connect with me on
+            I have a deep interest in web applications, ensuring software
+            quality, AI technologies, and agile practices. Feel free to connect
+            with me on
             <a
               href='https://www.linkedin.com/in/ayhanmet/'
               target='_blank'
               className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
             >
               LinkedIn
+            </a>
+            , and you can reach my projects on
+            <a
+              href='https://github.com/ayhanmetin'
+              target='_blank'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
+            >
+              Github
             </a>
             .
           </p>
@@ -44,9 +53,12 @@ export default function Home() {
               Postman API expert program
             </a>
             . Additionally, I am proficient with variety of testing tools such
-            as Cypress, Selenium, Playwright, and among others.
+            as Cypress, Selenium, Playwright, and among others. <br /> <br /> I
+            currently reside in the vibrant city of Frankfurt am Main. Fluent in
+            both English and Turkish at a professional level, I am actively
+            improving my German at the Goethe Institut, currently at B1 level.
           </p>
-          <h5 className='mt-4 mb-3 fw-bold title'>Automation Practice</h5>
+          <h5 className='mt-4 mb-3 fw-bold title'>Test Automation Projects</h5>
           <p className='paragraph'>
             Discover
             <a
@@ -92,6 +104,21 @@ export default function Home() {
             to explore the codes.
           </p>
 
+          <h5 className='mt-4 mb-3 fw-bold title'>
+            Frontend Projects
+          </h5>
+          <p className='paragraph'>
+            Explore the projects I've created using React, JavaScript,
+            Bootstrap, Tailwind, and OpenAI API. Visit the{' '}
+            <a
+              href='/projects'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+            >
+              projects page
+            </a>{' '}
+            for more.
+          </p>
+
           <h5 className='mt-4 mb-3 fw-bold title'>Articles</h5>
           <p className='paragraph'>
             Dive into my articles where I explore various aspects of test
@@ -110,19 +137,6 @@ export default function Home() {
               </li>
             ))}
           </ul>
-
-          <h5 className='mt-4 mb-3 fw-bold title'>Beyond Test Automation</h5>
-          <p className='paragraph'>
-            Explore the projects I've created using React, JavaScript,
-            Bootstrap, Tailwind, and OpenAI API. Visit the{' '}
-            <a
-              href='/projects'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-            >
-              projects page
-            </a>{' '}
-            for more.
-          </p>
 
           <h5 className='mt-4 mb-3 fw-bold title'>Looking Ahead</h5>
           <p className='paragraph'>

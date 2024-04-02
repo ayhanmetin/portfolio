@@ -16,8 +16,8 @@ export default function Test() {
                 <img
                   src={loginpage}
                   style={{
-                    width: '320px',
-                    height: '320px',
+                    width: '300px',
+                    height: '300px',
                     transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                   }}
                   className='d-block mx-lg-auto img-fluid img-thumbnail p-2 rounded shadow'
@@ -42,11 +42,11 @@ export default function Test() {
                 className='text-decoration-none'
                 target='_blank'
               >
-                <h1 className='display-5 fw-bold text-body mb-4 lh-1 mb-3'>
+                <h1 className='display-5 fs-2 text-muted text fw-bold text-body mb-4 lh-1 mb-3'>
                   Login Page
                 </h1>
               </Link>
-              <p className='lead'>
+              <p className='lead fs-6 fw-normal text'>
                 I developed a simple login page, along with test cases for
                 automated testing using well-known tools. You can access the
                 page through this{' '}
@@ -92,8 +92,8 @@ export default function Test() {
                 <img
                   src={ecommerce}
                   style={{
-                    width: '320px',
-                    height: '320px',
+                    width: '300px',
+                    height: '300px',
                     transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                   }}
                   className='d-block mx-lg-auto img-fluid img-thumbnail p-2 rounded shadow'
@@ -118,11 +118,11 @@ export default function Test() {
                 to='/testing/ecommerce'
                 target='_blank'
               >
-                <h1 className='display-5 fw-bold text-body-emphasis mb-4 lh-1 mb-3'>
+                <h1 className='display-5 fs-2 text-muted text fw-bold text-body mb-4 lh-1 mb-3'>
                   E-Commerce
                 </h1>
               </Link>
-              <p className='lead'>
+              <p className='lead fs-6 fw-normal text'>
                 I developed an e-commerce page for my frontend program's final
                 project, which serves as a demo available via this{' '}
                 <a
