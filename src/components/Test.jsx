@@ -2,7 +2,7 @@ import React from 'react';
 import loginpage from '../images/loginpage.png';
 import ecommerce from '../images/ecommerce.png';
 import { Link } from 'react-router-dom';
-import "./test.css"
+import './test.css';
 
 export default function Test() {
   return (
@@ -15,10 +15,24 @@ export default function Test() {
               <Link to='/testing/loginpage' target='_blank'>
                 <img
                   src={loginpage}
-                  style={{ width: '350px', height: '350px' }}
-                  className='d-block mx-lg-auto img-fluid img-thumbnail rounded'
+                  style={{
+                    width: '320px',
+                    height: '320px',
+                    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                  }}
+                  className='d-block mx-lg-auto img-fluid img-thumbnail p-2 rounded shadow'
                   alt='Login Page'
                   loading='lazy'
+                  onMouseEnter={e => {
+                    e.currentTarget.style.transform = 'scale(1.05)';
+                    e.currentTarget.style.boxShadow =
+                      '0 0 20px rgba(0, 0, 0, 0.5)';
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.transform = 'scale(1)';
+                    e.currentTarget.style.boxShadow =
+                      '0 0 10px rgba(0, 0, 0, 0.25)';
+                  }}
                 />
               </Link>
             </div>
@@ -77,10 +91,24 @@ export default function Test() {
               <Link to='/testing/ecommerce' target='_blank'>
                 <img
                   src={ecommerce}
-                  style={{ width: '350px', height: '350px' }}
-                  className='d-block mx-lg-auto img-fluid img-thumbnail rounded'
+                  style={{
+                    width: '320px',
+                    height: '320px',
+                    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                  }}
+                  className='d-block mx-lg-auto img-fluid img-thumbnail p-2 rounded shadow'
                   alt='E-commerce'
                   loading='lazy'
+                  onMouseEnter={e => {
+                    e.currentTarget.style.transform = 'scale(1.05)';
+                    e.currentTarget.style.boxShadow =
+                      '0 0 20px rgba(0, 0, 0, 0.5)';
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.transform = 'scale(1)';
+                    e.currentTarget.style.boxShadow =
+                      '0 0 10px rgba(0, 0, 0, 0.25)';
+                  }}
                 />
               </Link>
             </div>

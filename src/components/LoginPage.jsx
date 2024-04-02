@@ -34,22 +34,6 @@ export default function LoginPage() {
                 >
                   Cypress
                 </a>
-                {/* <a
-                href='#'
-                className='btn btn-outline-primary'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Selenium
-              </a>
-              <a
-                href='#'
-                className='btn btn-outline-primary'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Playwright
-              </a> */}
               </div>
             </div>
           </div>
