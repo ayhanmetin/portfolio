@@ -71,8 +71,8 @@ export default function Nav() {
                 <NavLink
                   className={({ isActive }) =>
                     isActive
-                      ? 'nav-link hover-underline text-warning'
-                      : 'nav-link hover-underline text-light'
+                      ? 'nav-link hover-underline link-offset-2 text-warning'
+                      : 'nav-link hover-underline link-offset-2 text-light'
                   }
                   to='/projects'
                 >
@@ -84,8 +84,8 @@ export default function Nav() {
                 <NavLink
                   className={({ isActive }) =>
                     isActive
-                      ? 'nav-link hover-underline text-warning'
-                      : 'nav-link hover-underline text-light'
+                      ? 'nav-link hover-underline link-offset-2 text-warning'
+                      : 'nav-link hover-underline link-offset-2 text-light'
                   }
                   to='/testing'
                 >
@@ -97,8 +97,8 @@ export default function Nav() {
                 <NavLink
                   className={({ isActive }) =>
                     isActive
-                      ? 'nav-link hover-underline text-warning'
-                      : 'nav-link hover-underline text-light'
+                      ? 'nav-link hover-underline link-offset-2 text-warning'
+                      : 'nav-link hover-underline link-offset-2 text-light'
                   }
                   to='/'
                 >

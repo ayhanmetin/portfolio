@@ -12,7 +12,7 @@ const projects = [
     technologies: ['React', 'HTML', 'Tailwind'],
     githubUrl: 'https://github.com/ayhanmetin/project-management-app',
     liveDemoUrl: 'https://project-management-one-amber.vercel.app/',
-    description: '',
+    description: 'This is a simple project management app built using React and styled with TailWind CSS. It allows you to add, delete, and select projects and tasks.',
     id: 1,
   },
   {
@@ -21,7 +21,8 @@ const projects = [
     technologies: ['JS', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
     liveDemoUrl: 'https://feed-a-mole-red.vercel.app/',
-    description: '',
+    description:
+      'Feed-A-Star-Mole" is a web game where players earn points by clicking on moles. It includes regular and rare moles, the king worth double points.',
     id: 2,
   },
   {
@@ -30,7 +31,8 @@ const projects = [
     technologies: ['React', 'Bootstrap', 'JS'],
     githubUrl: 'https://github.com/ayhanmetin/ayhando.v2',
     liveDemoUrl: 'https://ayhando.vercel.app/',
-    description: '',
+    description:
+      'E-commerce application designed to showcase the integration of React.js with the E-commerce API, emphasizing its RESTful architecture.',
     id: 3,
   },
   {
@@ -39,7 +41,8 @@ const projects = [
     technologies: ['JS', 'CSS', 'HTML'],
     githubUrl: 'https://github.com/ayhanmetin/calculator',
     liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
-    description: '',
+    description:
+      'In my project, I developed an iOS-style web calculator with essential arithmetic operations, integer input handling, a clear function for resets, and a backspace for corrections, providing an intuitive and seamless calculation experience.',
     id: 5,
   },
   {
@@ -48,7 +51,8 @@ const projects = [
     technologies: ['JS', 'Node.js', 'OpenAI'],
     githubUrl: 'https://github.com/ayhanmetin/ai-chat-app',
     liveDemoUrl: 'https://github.com/ayhanmetin/ai-chat-app',
-    description: '',
+    description:
+      'The AI Chat App, built with Node.js, leverages OpenAIss GPT-3.5 Turbo for chat, search, and Q&A functionalities, showcasing the integration of AI tools in one project.',
     id: 6,
   },
 ];
