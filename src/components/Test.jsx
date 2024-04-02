@@ -8,7 +8,7 @@ export default function Test() {
   return (
     <>
       <div className='container mb-2 pb-3 pt-0'>
-        <h3 className='pb-4 mb-1 border-bottom text-center '>
+        <h3 className='pb-4 mb-1 text-center '>
           My Test Projects
         </h3>{' '}
         <div className='container col-xxl-8 px-4 py-5 pt-4'>

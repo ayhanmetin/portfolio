@@ -6,12 +6,12 @@ export default function Projects() {
   return (
     <>
       <div className='container mb-2 pb-3 pt-0'>
-        <h3 className='pb-4 mb-1 border-bottom text-center'>Projects</h3>
+        <h3 className='pb-4 mb-1 text-center'>Projects</h3>
         <div className='container col-xxl-8 px-4 py-5 pt-4'>
           {projects.map(project => (
             <div key={project.id} className='row align-items-center g-5 py-5'>
               <div className='col-10 col-sm-8 col-lg-6'>
-                <Link to={`/projects/${project.id}`} target='_blank'>
+                <Link to={project.liveDemoUrl} target='_blank'>
                   <img
                     src={project.imageUrl}
                     style={{ width: '250px', height: '250px' }}
@@ -25,7 +25,7 @@ export default function Projects() {
                 <h1 className='display-5 fs-2 text fw-bold text-body mb-4 lh-1 mb-3'>
                   {project.name}
                 </h1>
-                <p className='lead fs-5 text'>
+                <p className='lead fs-6 fw-normal text'>
                   {project.description}
                 </p>
                 <p className='fst-italic small'>

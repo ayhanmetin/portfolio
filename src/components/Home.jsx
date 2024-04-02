@@ -1,12 +1,13 @@
 import React from 'react';
 import writings from '../data/writings';
+import "./home.css"
 export default function Home() {
   return (
-    <div className='container mb-5 pb-5pt-4'>
+    <div className='container home mb-5 pb-5pt-4'>
       <h3 className='pb-4 pb-2 mb-4 text-center'>About me</h3>
       <div className='row justify-content-center'>
         <div className='col-lg-8'>
-          <h5 className='mt-4 mb-3 fw-bold'>Experience and Expertise</h5>
+          <h5 className='mt-2 mb-3 fw-bold'>Experience and Expertise</h5>
           <p>
             I'm passionate about web applications, AI technologies, and agile
             methodologies. Feel free to connect with me on

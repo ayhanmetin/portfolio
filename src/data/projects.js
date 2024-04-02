@@ -32,7 +32,7 @@ const projects = [
     githubUrl: 'https://github.com/ayhanmetin/ayhando.v2',
     liveDemoUrl: 'https://ayhando.vercel.app/',
     description:
-      'E-commerce application designed to showcase the integration of React.js with the E-commerce API, emphasizing its RESTful architecture.',
+      'The E-commerce website is design to demonstrate the integration of React.js with an E-commerce API, highlighting its RESTful architecture. It features functionalities such as login, adding products to the cart, and deletion capabilities. Users can browse products by category among other features, with the flexibility to use any password for access.',
     id: 3,
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     githubUrl: 'https://github.com/ayhanmetin/calculator',
     liveDemoUrl: 'https://calculator-mu-smoky-14.vercel.app/',
     description:
-      'In my project, I developed an iOS-style web calculator with essential arithmetic operations, integer input handling, a clear function for resets, and a backspace for corrections, providing an intuitive and seamless calculation experience.',
+      'I developed an iOS-style web calculator with essential arithmetic operations, integer input handling, a clear function for resets, and a backspace for corrections, providing an intuitive and seamless calculation experience.',
     id: 5,
   },
   {
