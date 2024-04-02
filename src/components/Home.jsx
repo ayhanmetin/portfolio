@@ -3,7 +3,7 @@ import writings from '../data/writings';
 export default function Home() {
   return (
     <div className='container mb-5 pb-5pt-4'>
-      <h3 className='pb-4 border-bottom pb-2 mb-4 text-center'>About me</h3>
+      <h3 className='pb-4 pb-2 mb-4 text-center'>About me</h3>
       <div className='row justify-content-center'>
         <div className='col-lg-8'>
           <h5 className='mt-4 mb-3 fw-bold'>Experience and Expertise</h5>

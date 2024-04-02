@@ -2,12 +2,13 @@ import React from 'react';
 import loginpage from '../images/loginpage.png';
 import ecommerce from '../images/ecommerce.png';
 import { Link } from 'react-router-dom';
+import "./test.css"
 
 export default function Test() {
   return (
     <>
-      <div className='container mb-5 pb-5 pt-4'>
-        <h3 className='pb-4 mb-4 border-bottom text-center '>
+      <div className='container mb-2 pb-3 pt-0'>
+        <h3 className='pb-4 mb-1 border-bottom text-center '>
           My Test Projects
         </h3>{' '}
         <div className='container col-xxl-8 px-4 py-5 pt-4'>
@@ -30,7 +31,7 @@ export default function Test() {
                 className='text-decoration-none'
                 target='_blank'
               >
-                <h1 className='display-5 fw-bold text-body text-body-emphasis mb-4 lh-1 mb-3'>
+                <h1 className='display-5 fw-bold text-body mb-4 lh-1 mb-3'>
                   Login Page
                 </h1>
               </Link>
@@ -54,19 +55,19 @@ export default function Test() {
                   href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2 text-secondary-emphasis'
                 >
                   Cypress
                 </a>
                 <button
                   type='button'
-                  className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                 >
                   Selenium
                 </button>
                 <button
                   type='button'
-                  className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                 >
                   Playwright
                 </button>
@@ -114,8 +115,8 @@ export default function Test() {
               </p>
               <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
                 <a
-                  href='testing/ecommerce'
-                  className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                  href='https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation'
+                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                   target='_blank'
                   role='button'
                 >
@@ -123,14 +124,14 @@ export default function Test() {
                 </a>
                 <button
                   type='button'
-                  className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                   target='_blank'
                 >
                   Selenium
                 </button>
                 <button
                   type='button'
-                  className='btn btn-outline-primary btn-sm px-4 me-md-2'
+                  className='btn btn-outline-primary text-secondary-emphasis  btn-sm px-4 me-md-2'
                   target='_blank'
                 >
                   Playwright

@@ -24,3 +24,7 @@
 .dropdown-menu {
   margin-top: 0; 
 }
+
+.nav-link {
+  font-size: larger;
+}
