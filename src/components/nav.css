@@ -4,11 +4,10 @@
   transition: border-bottom 0.3s;
 }
 
-
 .dropdown-menu .dropdown-item.active,
 .dropdown-menu .dropdown-item:active {
-  background-color: #e68a00; 
-  color: white; 
+  background-color: #e68a00;
+  color: white;
 }
 
 .custom-btn-group {
@@ -18,13 +17,19 @@
 
 .custom-dropdown-toggle {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .dropdown-menu {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .nav-link {
-  font-size: larger;
+  font-family: 'Libre Franklin', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 43px;
 }
+
