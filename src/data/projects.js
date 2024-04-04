@@ -12,19 +12,11 @@ const projects = [
     technologies: ['React', 'HTML', 'Tailwind'],
     githubUrl: 'https://github.com/ayhanmetin/project-management-app',
     liveDemoUrl: 'https://project-management-one-amber.vercel.app/',
-    description: 'This is a simple project management app built using React and styled with TailWind CSS. It allows you to add, delete, and select projects and tasks.',
+    description:
+      'This is a simple project management app built using React and styled with TailWind CSS. It allows you to add, delete, and select projects and tasks.',
     id: 1,
   },
-  {
-    name: 'Feed-A-Star Mole',
-    imageUrl: moleImage,
-    technologies: ['JS', 'HTML', 'CSS'],
-    githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
-    liveDemoUrl: 'https://feed-a-mole-red.vercel.app/',
-    description:
-      'Feed-A-Star-Mole" is a web game where players earn points by clicking on moles. It includes regular and rare moles, the king worth double points.',
-    id: 2,
-  },
+
   {
     name: 'E-Commerce Website',
     imageUrl: ecommerceImage,
@@ -54,6 +46,16 @@ const projects = [
     description:
       'The AI Chat App, built with Node.js, leverages OpenAIss GPT-3.5 Turbo for chat, search, and Q&A functionalities, showcasing the integration of AI tools in one project.',
     id: 6,
+  },
+  {
+    name: 'Feed-A-Star Mole',
+    imageUrl: moleImage,
+    technologies: ['JS', 'HTML', 'CSS'],
+    githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
+    liveDemoUrl: 'https://feed-a-mole-red.vercel.app/',
+    description:
+      'Feed-A-Star-Mole is a web game where players earn points by clicking on moles. It includes regular and rare moles, the king worth double points.',
+    id: 2,
   },
 ];
 
