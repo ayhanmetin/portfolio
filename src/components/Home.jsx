@@ -97,61 +97,24 @@ export default function Home() {
             actively improving my German at the Goethe Institut, currently at B1
             level.
           </p>
-          <h5 className='mt-4 mb-3 fw-bold title'>Test Automation Projects</h5>
+          <h5 className='mt-4 mb-3 fw-bold title'>Test Automation</h5>
           <p className='paragraph'>
-            Discover
+          My portfolio includes comprehensive test automation projects for e-commerce and login functionalities, utilizing Cypress, Selenium, and Playwright for in-depth tutorials and practical applications. These are accessible via 
             <a
               href='/testing'
               target='_blank'
               rel='noopener noreferrer'
               className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
             >
-              my portfolio
+              testing page.
             </a>{' '}
-            of{' '}
-            <a
-              href='/testing/ecommerce'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
-            >
-              e-commerce website testing
-            </a>{' '}
-            and{' '}
-            <a
-              href='/testing/loginpage'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
-            >
-              login page exercises
-            </a>{' '}
-            showcasing detailed tutorials on Cypress. Visit my GitHub
-            repositories for{' '}
-            <a
-              href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
-            >
-              e-commerce page testing
-            </a>{' '}
-            and
-            <a
-              href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
-            >
-              login page testing
-            </a>{' '}
-            to explore the codes.
+          
+            
           </p>
 
           <h5 className='mt-4 mb-3 fw-bold title'>Frontend Projects</h5>
           <p className='paragraph'>
-            Explore the projects I've created using React, JavaScript,
-            Bootstrap, Tailwind, and OpenAI API. Visit the{' '}
+          I've developed diverse web projects utilizing React, JavaScript, Bootstrap, Tailwind, Node.js, and OpenAI API. For more details, visit my {' '}
             <a
               href='/projects'
               className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
