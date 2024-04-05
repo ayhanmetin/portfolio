@@ -46,7 +46,7 @@ export default function Test() {
                 </h1>
               </Link>
               <p className='lead fs-6 fw-normal text'>
-                I developed a simple login page, along with test cases <br /> for
+                I developed a simple login page, along with test cases for
                 automated testing using well-known tools. You can access the
                 page through this{' '}
                 <Link
