@@ -8,7 +8,7 @@ import cypress from "../images/cypress.png"
 
 export default function Home() {
   return (
-    <div className='container body mb-5 pb-5 pt-4'>
+    <div className='container body mb-1 pb-1 pt-4'>
       <div className='row justify-content-center'>
         <div className='col-lg-7'>
           <h5 className='mt-2 mb-3 fw-bold title'>Experience and Expertise</h5>
