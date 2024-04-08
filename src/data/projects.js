@@ -54,7 +54,7 @@ const projects = [
     githubUrl: 'https://github.com/ayhanmetin/feed-a-mole',
     liveDemoUrl: 'https://feed-a-mole-red.vercel.app/',
     description:
-      'Feed-A-Star-Mole is a web game where players earn points by clicking on moles. It includes regular and rare moles, the king worth double points.',
+      'Feed-A-Star-Mole is a desktop-only web game where players score by clicking on moles, featuring both regular and rare varieties, with the king mole worth double points.',
     id: 2,
   },
 ];

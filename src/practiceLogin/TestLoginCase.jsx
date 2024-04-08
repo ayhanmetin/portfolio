@@ -31,7 +31,7 @@ const TestCasesPage = () => {
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Type password 'ayhan123' into Password field</li>
-                <li>Push Submit button</li>
+                <li>Push Sign in button</li>
                 <li>
                   Verify new page contains expected text "Login Successful! "
                 </li>
@@ -85,7 +85,7 @@ const TestCasesPage = () => {
                 <li>Open page</li>
                 <li>Type username 'incorrectUser' into Username field</li>
                 <li>Type password 'ayhan123' into Password field</li>
-                <li>Push Submit button</li>
+                <li>Push Sign in button</li>
                 <li>Verify error message is displayed</li>
                 <li>
                   Verify error message text is 'Your username is invalid!'
@@ -139,7 +139,7 @@ const TestCasesPage = () => {
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Type password 'incorrectPassword' into Password field</li>
-                <li>Push Submit button</li>
+                <li>Push Sign in button</li>
                 <li>Verify error message is displayed</li>
                 <li>
                   Verify error message text is 'Your password is invalid!'
@@ -193,7 +193,7 @@ const TestCasesPage = () => {
                 <li>Open page</li>
                 <li>Leave Username field empty</li>
                 <li>Type password 'ayhan123' into Password field</li>
-                <li>Push Submit button</li>
+                <li>Push Sign in button</li>
                 <li>Verify error message is displayed</li>
                 <li>
                   Verify error message text is 'Username and password cannot be
@@ -248,11 +248,11 @@ const TestCasesPage = () => {
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Leave Password field empty</li>
-                <li>Push Submit button</li>
+                <li>Push Sign in button</li>
                 <li>Verify error message is displayed</li>
                 <li>
                   Verify error message text is 'Username and password cannot be
-                  empty! '
+                  empty!'
                 </li>
               </ol>
             </div>
@@ -303,7 +303,7 @@ const TestCasesPage = () => {
                 <li>Open page</li>
                 <li>Type username 'ayhan89' into Username field</li>
                 <li>Type a weak password "1234" into Password field</li>
-                <li>Push Submit button</li>
+                <li>Push Sign in button</li>
                 <li>Verify error message is displayed</li>
                 <li>Verify error message text is 'Password is too weak!'</li>
               </ol>
