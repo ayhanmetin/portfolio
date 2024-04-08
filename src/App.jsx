@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <div className='container-xl mt-5 pb-5 flex-grow-1'>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Projects />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/testing' element={<Test />} />
           <Route path='testing/loginpage' element={<LoginPage />} />
