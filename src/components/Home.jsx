@@ -2,13 +2,20 @@ import React from 'react';
 import writings from '../data/writings';
 import './home.css';
 import jira from '../images/jira.png';
-import Testrail from "../images/Testrail.png"
-import cypress from "../images/cypress.png"
-
+import Testrail from '../images/Testrail.png';
+import cypress from '../images/cypress.png';
+import frankfurt from '../images/Frankfurt.jpeg';
 
 export default function Home() {
   return (
-    <div className='container body mb-1 pb-1 pt-4'>
+    <div className='container body mb-1 pb-1 pt-1'>
+      <div class='text-center'>
+        <img
+          src={frankfurt}
+          class='img-fluid rounded mb-4'
+          style={{ maxWidth: '58%' }}
+        ></img>
+      </div>
       <div className='row justify-content-center'>
         <div className='col-lg-7'>
           <h5 className='mt-2 mb-3 fw-bold title'>Experience and Expertise</h5>
@@ -62,7 +69,7 @@ export default function Home() {
             >
               Postman API Expert program,
             </a>{' '}
-            and {' '}
+            and{' '}
             <a
               href={cypress}
               target='_blank'
@@ -99,7 +106,10 @@ export default function Home() {
           </p>
           <h5 className='mt-4 mb-3 fw-bold title'>Test Automation</h5>
           <p className='paragraph'>
-          My portfolio includes comprehensive test automation projects for e-commerce and login functionalities, utilizing Cypress, Selenium, and Playwright for in-depth tutorials and practical applications. These are accessible via 
+            My portfolio includes comprehensive test automation projects for
+            e-commerce and login functionalities, utilizing Cypress, Selenium,
+            and Playwright for in-depth tutorials and practical applications.
+            These are accessible via
             <a
               href='/testing'
               target='_blank'
@@ -108,13 +118,13 @@ export default function Home() {
             >
               testing page.
             </a>{' '}
-          
-            
           </p>
 
           <h5 className='mt-4 mb-3 fw-bold title'>Frontend Projects</h5>
           <p className='paragraph'>
-          I've developed diverse web projects utilizing React, JavaScript, Bootstrap, Tailwind, Node.js, and OpenAI API. For more details, visit my {' '}
+            I've developed diverse web projects utilizing React, JavaScript,
+            Bootstrap, Tailwind, Node.js, and OpenAI API. For more details,
+            visit my{' '}
             <a
               href='/projects'
               className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'

@@ -12,28 +12,33 @@ export default function Test() {
           {/* Login Page Section */}
           <div className='row align-items-center g-5 py-5'>
             <div className='col-10 col-sm-8 col-lg-6'>
-            <Link to='/testing/loginpage' target='_blank' className='p-0 m-0 d-block mx-lg-auto'>
-  <img
-    src={loginpage}
-    style={{
-      width: '300px',
-      height: '300px',
-      transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-    }}
-    className='img-fluid img-thumbnail p-1 rounded shadow'
-    alt='Login Page'
-    loading='lazy'
-    onMouseEnter={e => {
-      e.currentTarget.style.transform = 'scale(1.05)';
-      e.currentTarget.style.boxShadow = '0 0 20px rgba(0, 0, 0, 0.5)';
-    }}
-    onMouseLeave={e => {
-      e.currentTarget.style.transform = 'scale(1)';
-      e.currentTarget.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.25)';
-    }}
-  />
-</Link>
-
+              <Link
+                to='/testing/loginpage'
+                target='_blank'
+                className='p-0 m-0 d-block mx-lg-auto'
+              >
+                <img
+                  src={loginpage}
+                  style={{
+                    width: '300px',
+                    height: '300px',
+                    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                  }}
+                  className='img-fluid img-thumbnail p-1 rounded shadow'
+                  alt='Login Page'
+                  loading='lazy'
+                  onMouseEnter={e => {
+                    e.currentTarget.style.transform = 'scale(1.05)';
+                    e.currentTarget.style.boxShadow =
+                      '0 0 20px rgba(0, 0, 0, 0.5)';
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.transform = 'scale(1)';
+                    e.currentTarget.style.boxShadow =
+                      '0 0 10px rgba(0, 0, 0, 0.25)';
+                  }}
+                />
+              </Link>
             </div>
             <div className='col-lg-6'>
               <Link
@@ -46,30 +51,40 @@ export default function Test() {
                 </h1>
               </Link>
               <p className='lead fs-6 fw-normal text'>
-                I developed a simple login page, along with test cases for
-                automated testing using well-known tools. You can access the
-                page through this{' '}
+                I've developed a user-friendly login page, accompanied by
+                comprehensive automated test cases, utilizing Cypress, a widely
+                recognized testing tool. For direct access, click{' '}
                 <Link
                   target='_blank'
                   to='/testing/loginpage'
                   className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
                 >
-                  link.
+                  Login Page Practice
                 </Link>
+                .<br />
                 <br />
-                <br />
-                Explore the GitHub repositories and code below:
-              </p>
-              <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
+                For insights into my use of Cypress for testing, visit the{' '}
                 <a
                   href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2 text-secondary-emphasis'
+                  className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+                >
+                  GitHub repository
+                </a>
+                .
+              </p>
+
+              <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
+                {/* <a
+                  href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2 text-secondary-emphasis text-center'
                 >
                   Cypress
-                </a>
-                <button
+                </a> */}
+                {/* <button
                   type='button'
                   className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                 >
@@ -80,7 +95,7 @@ export default function Test() {
                   className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                 >
                   Playwright
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -123,30 +138,31 @@ export default function Test() {
               </Link>
               <p className='lead fs-6 fw-normal text'>
                 I developed an e-commerce page for my frontend program's final
-                project, which serves as a demo available via this{' '}
+                project, now available for demo at{' '}
                 <a
                   href='https://ayhando.vercel.app/'
                   className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
                   target='_blank'
                 >
-                  link.
+                  E-commerce demo
                 </a>
+                .<br />
                 <br />
-                <br />
-                Additionally, I created test cases and automated them using
-                popular test tools, explore the GitHub repositories and code
-                below:
-              </p>
-              <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
+                For a deeper dive into the development process and insights into
+                my use of Cypress for test automation, feel free to explore the{' '}
                 <a
                   href='https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation'
-                  className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
+                  className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
                   target='_blank'
                   role='button'
                 >
-                  Cypress
+                  GitHub repository
                 </a>
-                <button
+                .
+              </p>
+
+              <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
+                {/* <button
                   type='button'
                   className='btn btn-outline-primary text-secondary-emphasis btn-sm px-4 me-md-2'
                   target='_blank'
@@ -159,7 +175,7 @@ export default function Test() {
                   target='_blank'
                 >
                   Playwright
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

@@ -54,6 +54,16 @@ export default function Login() {
           <p>
             <strong>Password:</strong> ayhan123
           </p>
+          <p>
+            <a
+              href='https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main?tab=readme-ov-file#readme'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+            >
+              GitHub Repository
+            </a>
+          </p>
         </div>
       </div>
       <div className='row'>

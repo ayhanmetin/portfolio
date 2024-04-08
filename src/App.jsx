@@ -19,7 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/testing' element={<Test />} />
           <Route path='testing/loginpage' element={<LoginPage />} />
-
+          <Route path='/about' element={<Home />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </div>

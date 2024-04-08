@@ -100,7 +100,7 @@ export default function Nav() {
                       ? 'nav-link hover-underline link-offset-2 text-warning'
                       : 'nav-link hover-underline link-offset-2 text-light'
                   }
-                  to='/'
+                  to='/about'
                 >
                   About Me
                 </NavLink>
