@@ -27,7 +27,7 @@ export default function Home() {
               href='https://www.linkedin.com/in/ayhanmet/'
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover ms-1'
             >
               LinkedIn
             </a>
@@ -36,19 +36,21 @@ export default function Home() {
               href='https://github.com/ayhanmetin'
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover ms-1'
             >
               Github
             </a>
             .
           </p>
           <p className='paragraph'>
-            I hold{' '}
+            Having recently completed a frontend development program, I've
+            developed several web projects with React. My qualifications include
+            the{' '}
             <a
               href='https://app.diplomasafe.com/en-US/diploma/d0d77fac49d393835a5ae1637c369ed34cb2f33c1'
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               ISTQB Foundation Level,
             </a>{' '}
@@ -56,7 +58,7 @@ export default function Home() {
               href='https://www.scrum.org/user/1181897'
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               Scrum Master (PSM I),
             </a>{' '}
@@ -65,7 +67,7 @@ export default function Home() {
               href='https://badgr.com/public/assertions/NKCaUBU5QwOJ-WrFV2hsRA?identity__email=ayhanmet2@gmail.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               Postman API Expert program,
             </a>{' '}
@@ -74,7 +76,7 @@ export default function Home() {
               href={cypress}
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               Cypress
             </a>{' '}
@@ -83,7 +85,7 @@ export default function Home() {
               href={jira}
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               Jira
             </a>{' '}
@@ -92,7 +94,7 @@ export default function Home() {
               href={Testrail}
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               Testrail
             </a>{' '}
@@ -114,7 +116,7 @@ export default function Home() {
               href='/testing'
               target='_blank'
               rel='noopener noreferrer'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover ms-1'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover ms-1'
             >
               testing page.
             </a>{' '}
@@ -127,7 +129,7 @@ export default function Home() {
             visit my{' '}
             <a
               href='/projects'
-              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+              className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
             >
               projects page
             </a>{' '}
@@ -146,7 +148,7 @@ export default function Home() {
                   href={writing.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                  className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover'
                 >
                   - {writing.title}
                 </a>
