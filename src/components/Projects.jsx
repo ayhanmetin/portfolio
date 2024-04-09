@@ -38,7 +38,13 @@ export default function Projects() {
                 <h1 className='display-5 fs-2 text-muted text fw-bold text-body mb-4 lh-1 mb-3'>
                   {project.name}
                 </h1>
-                <p className='lead fs-6 fw-normal text'>
+                <p
+                  className='lead fs-6 fw-normal text'
+                  style={{
+                    height: '100px',
+                    overflow: 'hidden',
+                  }}
+                >
                   {project.description}
                 </p>
                 <p className='fst-italic small'>

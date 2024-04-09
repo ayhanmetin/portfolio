@@ -7,6 +7,16 @@ import pm from '../images/project-management-app.png';
 
 const projects = [
   {
+    name: 'E-Commerce Website',
+    imageUrl: ecommerceImage,
+    technologies: ['React', 'Bootstrap', 'JS'],
+    githubUrl: 'https://github.com/ayhanmetin/ayhando.v2',
+    liveDemoUrl: 'https://ayhando.vercel.app/',
+    description:
+      'The E-commerce website is design to demonstrate the integration of React.js with an E-commerce API, highlighting its RESTful architecture. It offers login, cart management, and product browsing by category with flexible password access.',
+    id: 3,
+  },
+  {
     name: 'To-Do List',
     imageUrl: pm,
     technologies: ['React', 'HTML', 'Tailwind'],
@@ -15,17 +25,6 @@ const projects = [
     description:
       'This is a simple project management app built using React and styled with TailWind CSS. It allows you to add, delete, and select projects and tasks.',
     id: 1,
-  },
-
-  {
-    name: 'E-Commerce Website',
-    imageUrl: ecommerceImage,
-    technologies: ['React', 'Bootstrap', 'JS'],
-    githubUrl: 'https://github.com/ayhanmetin/ayhando.v2',
-    liveDemoUrl: 'https://ayhando.vercel.app/',
-    description:
-      'The E-commerce website is design to demonstrate the integration of React.js with an E-commerce API, highlighting its RESTful architecture. It features functionalities such as login, adding products to the cart, and deletion capabilities. Users can browse products by category among other features, with the flexibility to use any password for access.',
-    id: 3,
   },
   {
     name: 'Calculator',
