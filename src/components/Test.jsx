@@ -54,6 +54,7 @@ export default function Test() {
                 style={{
                   textAlign: 'justify',
                   textAlignLast: 'left',
+                  hyphens: 'auto',
                 }}
                 className='lead fs-6 fw-normal text'
               >
@@ -146,6 +147,7 @@ export default function Test() {
                 style={{
                   textAlign: 'justify',
                   textAlignLast: 'left',
+                  hyphens: 'auto',
                 }}
                 className='lead fs-6 fw-normal text'
               >

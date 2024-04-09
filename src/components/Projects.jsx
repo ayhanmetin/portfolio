@@ -42,7 +42,8 @@ export default function Projects() {
                   className='lead fs-6 fw-normal text'
                   style={{
                     textAlign: 'justify',
-                    textAlignLast: 'left', 
+                    textAlignLast: 'left',
+                    hyphens: 'auto',
                   }}
                 >
                   {project.description}
@@ -58,15 +59,19 @@ export default function Projects() {
                 >
                   GitHub Repository
                 </a>
-                {' | '}
-                <a
-                  href={project.liveDemoUrl}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
-                >
-                  Live Demo
-                </a>
+                {project.liveDemoUrl && (
+                  <>
+                    {' | '}
+                    <a
+                      href={project.liveDemoUrl}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='link-body-emphasis link-underline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover'
+                    >
+                      Live Demo
+                    </a>
+                  </>
+                )}
               </div>
             </div>
           ))}

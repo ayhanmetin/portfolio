@@ -41,7 +41,6 @@ const projects = [
     imageUrl: AIChatAPP,
     technologies: ['JS', 'Node.js', 'OpenAI'],
     githubUrl: 'https://github.com/ayhanmetin/ai-chat-app',
-    liveDemoUrl: 'https://github.com/ayhanmetin/ai-chat-app',
     description:
       'The AI Chat App, built with Node.js, leverages OpenAIss GPT-3.5 Turbo for chat, search, and Q&A functionalities, showcasing the integration of AI tools in one project.',
     id: 6,

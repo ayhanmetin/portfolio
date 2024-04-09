@@ -12,14 +12,16 @@ export default function Home() {
       <div class='text-center'>
         <img
           src={frankfurt}
-          class='img-fluid rounded mb-4'
-          style={{ maxWidth: '58%' }}
-        ></img>
+          alt='Frankfurt'
+          className='img-fluid rounded mb-4'
+          style={{ maxWidth: '57%' }}
+        />
       </div>
       <div
         style={{
           textAlign: 'justify',
           textAlignLast: 'left',
+          hyphens: 'auto',
         }}
         className='container body mb-1 pb-1 pt-1'
       >
