@@ -50,7 +50,13 @@ export default function Test() {
                   Login Page
                 </h1>
               </Link>
-              <p className='lead fs-6 fw-normal text'>
+              <p
+                style={{
+                  textAlign: 'justify',
+                  textAlignLast: 'left',
+                }}
+                className='lead fs-6 fw-normal text'
+              >
                 I've developed a user-friendly login page, accompanied by
                 comprehensive automated test cases, utilizing Cypress, a widely
                 recognized testing tool. For direct access, click{' '}
@@ -136,7 +142,13 @@ export default function Test() {
                   E-Commerce
                 </h1>
               </Link>
-              <p className='lead fs-6 fw-normal text'>
+              <p
+                style={{
+                  textAlign: 'justify',
+                  textAlignLast: 'left',
+                }}
+                className='lead fs-6 fw-normal text'
+              >
                 I developed an e-commerce page for my frontend program's final
                 project, now available for demo at{' '}
                 <a

@@ -41,8 +41,8 @@ export default function Projects() {
                 <p
                   className='lead fs-6 fw-normal text'
                   style={{
-                    height: '100px',
-                    overflow: 'hidden',
+                    textAlign: 'justify',
+                    textAlignLast: 'left', 
                   }}
                 >
                   {project.description}
