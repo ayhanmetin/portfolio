@@ -55,7 +55,7 @@ export default function Home() {
             </p>
             <p className='paragraph'>
               Having recently completed a frontend development program, I've
-              developed several web projects with React.js, Javascript, Node.js Bootstrap, Tailwind, among others. Additionally, I've obtained several certifications in these technologies
+              developed several web projects with React.js, Javascript, Node.js Bootstrap, Tailwind, among others. Additionally, I've obtained several certifications
               includes{' '}
               <a
                 href='https://app.diplomasafe.com/en-US/diploma/d0d77fac49d393835a5ae1637c369ed34cb2f33c1'
