@@ -6,13 +6,15 @@ Hello! I'm **Ayhan Metin**, a **Frontend Developer** based in the EU. I speciali
 
 ---
 
-**Languages:** English, Turkish, German (B1)
+**Languages:** German, English, Turkish
 
 **Region:** EU
 
 **Fields of Expertise:**
 - Frontend Development
 - UI/UX Design
+- eCommerce Solutions
+- Content Creation
 
 ---
 
