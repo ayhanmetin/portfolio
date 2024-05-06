@@ -27,6 +27,11 @@ export default function Home() {
       >
         <div className='row justify-content-center'>
           <div className='col-lg-7'>
+            
+            <p class='paragraph fs-5 text mb-5'>
+              I crafted this portfolio page while attending a
+              frontend development program in Germany, 2023.
+            </p>
             <h5 className='mt-2 mb-3 fw-bold title'>
               Experience and Expertise
             </h5>
@@ -55,8 +60,9 @@ export default function Home() {
             </p>
             <p className='paragraph'>
               Having recently completed a frontend development program, I've
-              developed several web projects with React.js, Javascript, Node.js Bootstrap, Tailwind, among others. Additionally, I've obtained several certifications
-              includes{' '}
+              developed several web projects with React.js, Javascript, Node.js
+              Bootstrap, Tailwind, among others. Additionally, I've obtained
+              several certifications includes{' '}
               <a
                 href='https://app.diplomasafe.com/en-US/diploma/d0d77fac49d393835a5ae1637c369ed34cb2f33c1'
                 target='_blank'
