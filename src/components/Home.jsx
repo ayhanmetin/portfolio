@@ -28,7 +28,7 @@ export default function Home() {
         <div className='row justify-content-center'>
           <div className='col-lg-7'>
             
-            <p class='paragraph fs-5 text mb-5'>
+            <p class='paragraph fs-5 text mb-5 fw-medium border-top border-bottom p-2 border-opacity-10'>
               I crafted this portfolio page while attending a
               frontend development program in Germany, 2023.
             </p>
