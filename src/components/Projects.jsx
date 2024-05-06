@@ -10,7 +10,14 @@ export default function Projects() {
           {projects.map(project => (
             <div key={project.id} className='row align-items-center g-5 py-5'>
               <div className='col-10 col-sm-8 col-lg-6'>
-                <Link to={project.liveDemoUrl} target='_blank'>
+                <Link
+                  to={
+                    project.id === 6
+                      ? project.githubUrl
+                      : project.liveDemoUrl || project.githubUrl
+                  }
+                  target='_blank'
+                >
                   <img
                     src={project.imageUrl}
                     style={{
