@@ -1,5 +1,5 @@
 import portfolioold from '../images/portfolioold.png';
-import de from '../images/de.png';
+import de from '../images/de.jpeg';
 import ecommerceImage from '../images/e-commerce.png';
 import moleImage from '../images/mole-cover.png';
 import calculatorIOS from '../images/calculator.png';
