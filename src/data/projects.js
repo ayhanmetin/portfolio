@@ -1,4 +1,5 @@
 import portfolioold from '../images/portfolioold.png';
+import de from '../images/de.png';
 import ecommerceImage from '../images/e-commerce.png';
 import moleImage from '../images/mole-cover.png';
 import calculatorIOS from '../images/calculator.png';
@@ -6,6 +7,16 @@ import AIChatAPP from '../images/ai-chat-app.jpg';
 import pm from '../images/project-management-app.png';
 
 const projects = [
+  {
+    name: 'Deutschlernen mit Ayhan 🇩🇪',
+    imageUrl: de,
+    technologies: ['React', 'Bootstrap'],
+    githubUrl: 'https://github.com/ayhanmetin/Learn-German',
+    liveDemoUrl: 'https://almancakelime.com/quiz',
+    description:
+      'Deutschlernen App is a German language learning platform that boosts language skills up to B1 and C1 levels with daily word activities, sentence examples, and a quiz app that uses the Fisher-Yates shuffle for dynamic, engaging sessions.',
+    id: 7,
+  },
   {
     name: 'E-Commerce Website',
     imageUrl: ecommerceImage,
