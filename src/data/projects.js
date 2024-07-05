@@ -8,16 +8,6 @@ import pm from '../images/project-management-app.png';
 
 const projects = [
   {
-    name: 'Deutschlernen App 🇩🇪',
-    imageUrl: de,
-    technologies: ['React', 'Bootstrap'],
-    githubUrl: 'https://github.com/ayhanmetin/Learn-German',
-    liveDemoUrl: 'https://almancakelime.com/quiz',
-    description:
-      'Deutschlernen App is a German language learning platform that boosts language skills up to B1 and C1 levels with daily word activities, sentence examples, and a quiz app that uses the Fisher-Yates shuffle for dynamic, engaging sessions.',
-    id: 7,
-  },
-  {
     name: 'E-Commerce Website',
     imageUrl: ecommerceImage,
     technologies: ['React', 'Bootstrap', 'JS'],
@@ -46,6 +36,16 @@ const projects = [
     description:
       'I developed an iOS-style web calculator with essential arithmetic operations, integer input handling, a clear function for resets, and a backspace for corrections, providing an intuitive and seamless calculation experience.',
     id: 5,
+  },
+  {
+    name: 'Deutschlernen App 🇩🇪',
+    imageUrl: de,
+    technologies: ['React', 'Bootstrap'],
+    githubUrl: 'https://github.com/ayhanmetin/Learn-German',
+    liveDemoUrl: 'https://almancakelime.com/quiz',
+    description:
+      'Deutschlernen App is a German language learning platform that boosts language skills up to B1 and C1 levels with daily word activities, sentence examples, and a quiz app that uses the Fisher-Yates shuffle for dynamic, engaging sessions.',
+    id: 7,
   },
   {
     name: 'AI Chat App',
