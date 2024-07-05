@@ -8,7 +8,7 @@ import pm from '../images/project-management-app.png';
 
 const projects = [
   {
-    name: 'Deutschlernen mit Ayhan 🇩🇪',
+    name: 'Deutschlernen App 🇩🇪',
     imageUrl: de,
     technologies: ['React', 'Bootstrap'],
     githubUrl: 'https://github.com/ayhanmetin/Learn-German',
