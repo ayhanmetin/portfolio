@@ -38,7 +38,7 @@ const projects = [
     id: 5,
   },
   {
-    name: 'Deutschlernen App 🇩🇪',
+    name: 'Deutschlernen',
     imageUrl: de,
     technologies: ['React', 'Bootstrap'],
     githubUrl: 'https://github.com/ayhanmetin/Learn-German',
