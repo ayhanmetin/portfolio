@@ -42,7 +42,7 @@ const projects = [
     imageUrl: de,
     technologies: ['React', 'Bootstrap'],
     githubUrl: 'https://github.com/ayhanmetin/Learn-German',
-    liveDemoUrl: 'https://almancakelime.com/quiz',
+    liveDemoUrl: 'https://almancakelime.com/',
     description:
       'Deutschlernen App is a German language learning platform that boosts language skills up to B1 and C1 levels with daily word activities, sentence examples, and a quiz app that uses the Fisher-Yates shuffle for dynamic, engaging sessions.',
     id: 7,
